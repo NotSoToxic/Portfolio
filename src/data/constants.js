@@ -209,6 +209,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
+    webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
   },
 
   //for later use
