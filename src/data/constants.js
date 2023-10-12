@@ -169,7 +169,6 @@ export const projects = [
       "https://github.com/NotSoToxic/WebDev-Project-beta/assets/93981003/15688934-045a-4f95-8dec-cfa7e7b65388",
     tags: [
       "Docker",
-      "DuckDNS",
       "React Js",
       "MongoDb",
       "Node Js",
