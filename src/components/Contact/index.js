@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
+import MuiAlert from '@mui/material/Alert';
 
 const Container = styled.div`
 display: flex;
@@ -130,15 +131,18 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_bzqnmql', 'template_y9upjy9', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_bzqnmql', 'template_y9upjy9', form.current, '9Yz0WO07qCbYKioV9')
       .then((result) => {
+        console.log('Email sent successfully', result);
         setOpen(true);
         form.current.reset();
       }, (error) => {
-        console.log(error.text);
+        console.log('Email send error:', error);
       });
   }
-
+  const handleClose = () => {
+    setOpen(false);
+  };
 
 
   return (
@@ -157,10 +161,16 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+          onClose={handleClose}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
+        <MuiAlert
+          elevation={6}
+          variant="filled"
+          onClose={handleClose}
+          severity="success">
+          Email sent successfully!
+        </MuiAlert>
+      </Snackbar>
       </Wrapper>
     </Container>
   )
