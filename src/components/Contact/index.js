@@ -145,7 +145,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_bzqnmql', 'template_y9upjy9', form.current, '9Yz0WO07qCbYKioV9')
+    emailjs.sendForm('service_ox1e16t', 'template_y9upjy9', form.current, '9Yz0WO07qCbYKioV9')
       .then((result) => {
         console.log('Email sent successfully', result);
         setOpen(true);
