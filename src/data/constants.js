@@ -122,7 +122,7 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    //img: "https://github.com/NotSoToxic/Bday-Special/assets/93981003/96aad146-476f-42f4-ab2a-4eee979d25de", //not working
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/image_2023-10-12_111529744.png?alt=media&token=ef9e0403-be8e-4210-b7f0-0b0b6146759b&_gl=1*amlnvt*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTUzNC40Ny4wLjA.", //not
     school: "Vellore Instutute of Technology, Bhopal",
     date: "Aug 2021 - Sept 2025",
     grade: "9.12 CGPA",
@@ -131,7 +131,7 @@ export const education = [
   },
   {
     id: 1,
-    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",//not working
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Adarsh%20Jain.png?alt=media&token=6838de10-5619-435f-a4bb-4f35d6bb72c3&_gl=1*txsc55*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTU3NS42LjAuMA.",//not working
     school: "Adarsh Jain School, New Delhi",
     date: "Apr 2020 - Apr 2021",
     grade: "85.2%",
@@ -140,7 +140,7 @@ export const education = [
   },
   {
     id: 2,
-    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3", //not working
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Presidium.jpeg?alt=media&token=ffad081c-96b9-424d-9eb3-5ddd25339ab9&_gl=1*7iezu9*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTU1OC4yMy4wLjA.", //not working
     school: "Presidium, Dwarka-22, New Delhi",
     date: "Apr 2018 - Apr 2019",
     grade: "92.3%",
