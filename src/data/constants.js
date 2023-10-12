@@ -212,6 +212,21 @@ export const projects = [
     webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
   },
 
+  {
+    id: 2,
+    title: "Gesture Volume Controller",
+    date: "Nov 2021 - Dec 2021",
+    description:
+      "Gesture Volume Controller is a real-time volume control system for windows that uses computer vision and machine learning to adjust the Windows audio volume based on hand gestures captured from a webcam.",
+    image:
+      "https://github.com/NotSoToxic/Python-Projects/assets/93981003/8c1c5834-9d84-4c58-8efd-587e77b5fcad",
+    tags: [
+      "Pycaw", "ImageRecognition", "OpenCv", "Meadiapipe", "Numpy"],
+    category: "machine learning",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Gesture-Volume-Controller-for-Windows",
+  },
+
+
   //for later use
   /*{
     id: 2,
