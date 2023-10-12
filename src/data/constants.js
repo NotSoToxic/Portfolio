@@ -194,7 +194,7 @@ export const projects = [
   {
     id: 1,
     title: "Humara-Bot",
-    date: "Oct 2022 - Present",
+    date: "Oct 2022 - Dec 2022",
     description:
       "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
     image:
