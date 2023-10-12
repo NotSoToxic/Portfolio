@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 import MuiAlert from '@mui/material/Alert';
@@ -131,33 +131,40 @@ const ContactButton = styled.input`
   }
 `
 
-
-
-
-
-
-
 const Contact = () => {
-
-  //hooks
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [error, setError] = useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_ox1e16t', 'template_y9upjy9', form.current, '9Yz0WO07qCbYKioV9')
+
+    // Check if any of the fields are empty
+    const fields = ['from_email', 'from_name', 'subject', 'message'];
+    for (const field of fields) {
+      if (!form.current[field].value) {
+        setError(true);
+        setOpen(true); // Open the Snackbar for displaying the error message
+        return;
+      }
+    }
+
+    emailjs
+      .sendForm('service_ox1e16t', 'template_y9upjy9', form.current, '9Yz0WO07qCbYKioV9')
       .then((result) => {
         console.log('Email sent successfully', result);
         setOpen(true);
         form.current.reset();
-      }, (error) => {
+        setError(false);
+      })
+      .catch((error) => {
         console.log('Email send error:', error);
       });
-  }
+  };
+
   const handleClose = () => {
     setOpen(false);
   };
-
 
   return (
     <Container>
@@ -166,7 +173,11 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput
+            placeholder="Your Email"
+            name="from_email"
+            type="email" // Set the input type to "email" for email validation
+          />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
@@ -177,17 +188,18 @@ const Contact = () => {
           autoHideDuration={6000}
           onClose={handleClose}
           anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
-        <MuiAlert
-          elevation={6}
-          variant="filled"
-          onClose={handleClose}
-          severity="success">
-          Email sent successfully!
-        </MuiAlert>
-      </Snackbar>
+          <MuiAlert
+            elevation={6}
+            variant="filled"
+            onClose={handleClose}
+            severity={error ? 'error' : 'success'}>
+            {error ? 'Please fill out all fields' : 'Email sent successfully!'}
+          </MuiAlert>
+        </Snackbar>
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
+
