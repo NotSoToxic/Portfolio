@@ -119,7 +119,21 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(to right, hsla(271, 100%, 30%, 1), hsla(294, 100%, 30%, 1));
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    color: white;
+    transition: all 0.4s ease-in-out;
+  }
 `
+
+
+
+
 
 
 
