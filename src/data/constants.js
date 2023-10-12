@@ -152,7 +152,7 @@ export const education = [
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Presidium.jpeg?alt=media&token=ffad081c-96b9-424d-9eb3-5ddd25339ab9&_gl=1*7iezu9*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTU1OC4yMy4wLjA.", //not working
     school: "Presidium, Dwarka-22, New Delhi",
     date: "Apr 2018 - Apr 2019",
-    grade: "92.3%",
+    grade: "94.3%",
     desc: "I completed my class 10 education at Presidium, Dwarka-22, New Delhi.",
     degree: "CBSE(X), Science with Computer",
   },
