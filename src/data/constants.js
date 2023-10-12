@@ -122,7 +122,7 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    //img: "https://github.com/NotSoToxic/Bday-Special/assets/93981003/96aad146-476f-42f4-ab2a-4eee979d25de", //not working
     school: "Vellore Instutute of Technology, Bhopal",
     date: "Aug 2021 - Sept 2025",
     grade: "9.12 CGPA",
@@ -131,7 +131,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",//not working
     school: "Adarsh Jain School, New Delhi",
     date: "Apr 2020 - Apr 2021",
     grade: "85.2%",
@@ -140,7 +140,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3", //not working
     school: "Presidium, Dwarka-22, New Delhi",
     date: "Apr 2018 - Apr 2019",
     grade: "92.3%",
