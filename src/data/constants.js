@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "I'm an enthusiastic and adaptable person, constantly seeking new opportunities to excel. Driven by a deep love for learning, I am committed to producing top-notch outcomes. Fueled by optimism and a commitment to personal growth, I am prepared to make a significant impact and accomplish remarkable feats.",
   github: "https://github.com/notsotoxic",
-  resume: "https://drive.google.com/file/d/1m52LumpxnT4xAiQyAlkrS-Rk-pKx8Wt8/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1jR6WSOuoW4rD_WcREyQfPYHWEG5Cxhsh/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
   insta: "https://www.instagram.com/printf_sarthak/",
 };
