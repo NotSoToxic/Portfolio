@@ -255,4 +255,9 @@ export const projects = [
       },
     ],
   },*/
+
 ];
+
+export const contact = {
+  email: "mailto:"
+};
