@@ -73,6 +73,12 @@ export const skills = [
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
+      {
+        name: "Express Js",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+      
       
     ],
   },
