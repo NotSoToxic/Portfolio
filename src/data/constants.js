@@ -232,28 +232,48 @@ export const projects = [
     github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Gesture-Volume-Controller-for-Windows",
   },
 
-
-  //for later use
-  /*{
-    id: 2,
-    title: "project name",
-    date: "Jan 2023 - Mar 2023",
+{
+    id: 3,
+    title: "Suprise Housing Case Study",
+    date: "Oct 2023 - Dec 2023",
     description:
-      "Description",
+      "Optimizing real estate strategies through advanced data analytics and machine learning techniques.",
     image:
-      "image link",
-    tags: [technology used" double quotes"],
+      "https://github.com/NotSoToxic/Surprise-Housing-Case-Study/assets/93981003/0f8f00ae-9326-42a3-bdfe-92b5ba6e9560",
+    tags: [
+      "Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-Learn", "Statsmodels for Data Analysis", "Machine Learning"],
     category: "machine learning",
-    github: "github link",
-    webapp: "webapp link for web application",
-    member: [
+    github: "https://github.com/NotSoToxic/Surprise-Housing-Case-Study",
+    webapp: "https://colab.research.google.com/drive/1kV-hFtM3hAN_eV2j-J9jGYH5baKXUTJ_?authuser=1#scrollTo=hVqiHGr-6OXX",
+    /*member: [
       {
         name: "Sarthak Joshi",
         img: "https://avatars.githubusercontent.com/u/64485885?v=4",
         linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
         github: "github link",
       },
+    ],*/
+  },
+
+ /* {
+    id: 4,
+    title: "News-Buzz",
+    date: "Oct 2023 - Dec 2023",
+    description:
+      "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
+    image:
+      "https://github.com/NotSoToxic/Custom-Discord-Bot/assets/93981003/6a21bfec-3f32-450e-8e09-f641879dbf80",
+    tags: [
+      "Javascript",
+      "NodeJs",
+      "ReactJs",
+      "NewsAPI",
+      "MongoDB",
+      "ExpressJs",
     ],
+    category: "web app",
+    github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
+    webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
   },*/
 
 ];
