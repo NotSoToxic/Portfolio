@@ -183,6 +183,38 @@ export const projects = [
     category: "web app",
     github: "https://github.com/NotSoToxic/WebDev-Project-beta",
     webapp: "https://minthub-47c82.web.app",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      {
+        name: "Rajul Mahto",
+        img: "https://minthub-47c82.web.app/static/media/rajul.109e922edf540cecb292.jpeg",
+        linkedin: "https://www.linkedin.com/in/rajul-mahto-313463200/",
+        github: "https://github.com/Rajulmahto21",
+      },{
+        name: "Aryan Das",
+        img: "https://minthub-47c82.web.app/static/media/arya.9b90e41f3d1cd4342ebf.png",
+        linkedin: "https://www.linkedin.com/in/aryan--das/",
+        github: "https://github.com/arya-domain",
+      },
+
+      {
+        name: "Tanmoy Mondal",
+        img: "https://minthub-47c82.web.app/static/media/tanmoy.e5c670a2f35c98d16b41.jfif",
+        linkedin: "Linkedln link",
+        github: "github link",
+      },
+    ],
   },
   {
     id: 0,
@@ -196,6 +228,37 @@ export const projects = [
       "Machine-Learning", "ImageRecognition", "OpenCv", "Meadiapipe", "tKinter"],
     category: "machine learning",
     github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Facial-Attendance-System",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      {
+        name: "Rajul Mahto",
+        img: "https://minthub-47c82.web.app/static/media/rajul.109e922edf540cecb292.jpeg",
+        linkedin: "https://www.linkedin.com/in/rajul-mahto-313463200/",
+        github: "https://github.com/Rajulmahto21",
+      },{
+        name: "Aryan Das",
+        img: "https://minthub-47c82.web.app/static/media/arya.9b90e41f3d1cd4342ebf.png",
+        linkedin: "https://www.linkedin.com/in/aryan--das/",
+        github: "https://github.com/arya-domain",
+      },
+      {
+        name: "Garvit Jain",
+        img: "https://i.pinimg.com/1200x/64/81/22/6481225432795d8cdf48f0f85800cf66.jpg",
+        linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
+        github: "https://github.com/megarvit",
+      },
+    ],
   },
   {
     id: 1,
@@ -216,6 +279,20 @@ export const projects = [
     category: "web app",
     github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
     webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+    ],
   },
 
   {
