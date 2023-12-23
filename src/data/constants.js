@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "I'm an enthusiastic and adaptable person, constantly seeking new opportunities to excel. Driven by a deep love for learning, I am committed to producing top-notch outcomes. Fueled by optimism and a commitment to personal growth, I am prepared to make a significant impact and accomplish remarkable feats.",
   github: "https://github.com/notsotoxic",
-  resume: "https://drive.google.com/file/d/1jR6WSOuoW4rD_WcREyQfPYHWEG5Cxhsh/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1rWikWYuejXQPRyk3gDsx64OlB8IfJUuJ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
   insta: "https://www.instagram.com/printf_sarthak/",
 };
@@ -327,14 +327,6 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/NotSoToxic/Surprise-Housing-Case-Study",
     webapp: "https://colab.research.google.com/drive/1kV-hFtM3hAN_eV2j-J9jGYH5baKXUTJ_?authuser=1#scrollTo=hVqiHGr-6OXX",
-    /*member: [
-      {
-        name: "Sarthak Joshi",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
-        github: "github link",
-      },
-    ],*/
   },
 
  /* {
@@ -357,6 +349,26 @@ export const projects = [
     github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
     webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
   },*/
+  /*member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      {
+        name: "Garvit Jain",
+        img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
+        linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
+        github: "https://github.com/megarvit",
+      },
+    ],*/
 
 ];
 
