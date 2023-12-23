@@ -129,6 +129,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
+      {
+        name: "Vercel",
+        image:
+          "https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo-thumbnail.png",
+      },
       
     ],
   },
@@ -254,7 +259,7 @@ export const projects = [
       },
       {
         name: "Garvit Jain",
-        img: "https://i.pinimg.com/1200x/64/81/22/6481225432795d8cdf48f0f85800cf66.jpg",
+        img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
         linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
         github: "https://github.com/megarvit",
       },
