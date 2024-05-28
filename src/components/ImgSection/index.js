@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroBgAnimation from '../ImgBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './ImgStyle'
-import HeroImg from '../../images/MyImage.png';
+import HeroImg from '../../images/MyImage.jpg';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
