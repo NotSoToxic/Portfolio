@@ -143,10 +143,10 @@ export const education = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/image_2023-10-12_111529744.png?alt=media&token=ef9e0403-be8e-4210-b7f0-0b0b6146759b&_gl=1*amlnvt*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTUzNC40Ny4wLjA.", //not
-    school: "Vellore Instutute of Technology, Bhopal",
-    date: "Aug 2021 - Sept 2025",
+    school: "Vellore Instutute of Technology",
+    date: "Aug 2017 - Sept 2021",
     grade: "9.12 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Instutute of Technology, Bhopal. I have completed 6 semesters and have a CGPA of 9.12. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, and Computer Networks, among others.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Instutute of Technology. I have completed 6 semesters and have a CGPA of 9.12. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
