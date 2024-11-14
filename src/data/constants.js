@@ -142,7 +142,7 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/image_2023-10-12_111529744.png?alt=media&token=ef9e0403-be8e-4210-b7f0-0b0b6146759b&_gl=1*amlnvt*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTUzNC40Ny4wLjA.", //not
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/desktop-wallpaper-vit-logo-vellore-institute-of-technology-vector-indian-institute-logo.jpg?alt=media&token=bb528686-4c53-435e-a223-43abe1c9c9d0", //not
     school: "Vellore Instutute of Technology",
     date: "Aug 2017 - Sept 2021",
     grade: "9.12 CGPA",
