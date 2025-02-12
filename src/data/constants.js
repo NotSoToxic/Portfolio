@@ -4,6 +4,7 @@ export const Bio = {
     "Full Stack Developer",
     "Web Developer",
     "Software Engineer",
+    "DevOps Engineer",
     "Programmer",
   ],
   description:
@@ -22,6 +23,30 @@ export const skills = [
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Next Js",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "https://img.icons8.com/?size=100&id=qOFWMoaAQIdR&format=png&color=000000",
+      },
+      {
+        name: "Redux",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      },
+      {
+        name: "Material UI",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      },
+      {
+        name: "Styled Components",
+        image: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
+      },
+      {
+        name: "React Router",
+        image: "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
       },
       {
         name: "HTML",
@@ -47,6 +72,22 @@ export const skills = [
   {
     title: "Backend",
     skills: [
+      {
+        name: "Docker",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      },
+      {
+        name: "Firebase",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+      },
+      {
+        name: "AWS",
+        image: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000", 
+      },
+      {
+        name: "Postman",
+        image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      },
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
@@ -86,6 +127,22 @@ export const skills = [
     title: "Android",
     skills: [
       {
+        name: "Kotlin",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+      },
+      {
+        name: "React Native",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        name: "Firebase",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+      },
+      {
+        name: "Android SDK",
+        image: "https://developer.android.com/static/images/logos/android.svg",
+      },
+      {
         name: "Java",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
@@ -101,9 +158,44 @@ export const skills = [
     title: "Others",
     skills: [
       {
+        name: "Postman",
+        image:
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      },
+      {
+        name: "Linux",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      },
+      {
+        name: "Ubuntu",
+        image:
+          "https://img.icons8.com/?size=100&id=63208&format=png&color=000000",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+      {
+        name: "AWS",
+        image:
+          "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+      },
+      {
+        name: "Jenkins",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+      },
+      {
+        name: "Jira",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+      },
+      {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
       },
       {
         name: "GitHub",
@@ -299,9 +391,83 @@ export const projects = [
       },
     ],
   },
-
   {
     id: 2,
+    title: "News-Buzz",
+    date: "Oct 2023 - Dec 2023",
+    description:
+      "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
+    image:
+      "https://private-user-images.githubusercontent.com/93981003/412440461-5d5aba49-2a9f-4227-bec8-b0408af824d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzNjcwODcsIm5iZiI6MTczOTM2Njc4NywicGF0aCI6Ii85Mzk4MTAwMy80MTI0NDA0NjEtNWQ1YWJhNDktMmE5Zi00MjI3LWJlYzgtYjA0MDhhZjgyNGQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEyVDEzMjYyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUwMzZiY2RmOTFiYzVlNmVlZDIwYzMyZDliMjcxYTE0Y2I2NjdmODE5ZDg3NTQyOGUwMmMxMTMwZTE4M2Q3NTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.upN1G_FieEOyxUoyFR35L0IaYQ3fF_tcN4i2bZ3I_64",
+    tags: [
+      "Javascript",
+      "NodeJs",
+      "ReactJs",
+      "NewsAPI",
+      "MongoDB",
+      "ExpressJs",
+    ],
+    category: "web app",
+    github: "https://github.com/NotSoToxic/NewsBuzz/",
+    webapp: "https://news-buzz-green.vercel.app/register",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      {
+        name: "Garvit Jain",
+        img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
+        linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
+        github: "https://github.com/megarvit",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Website for Strategyz Inc.",
+    date: "Mar 2024 - May 2024",
+    description:
+      "A modern, responsive company website built for Strategyz Inc. showcasing their services, team, and company information using modern web technologies and best practices.",
+    image:
+      "https://private-user-images.githubusercontent.com/93981003/412444431-20edd217-6f52-4a8f-b2a2-57874bc82e7b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzNjc3MjAsIm5iZiI6MTczOTM2NzQyMCwicGF0aCI6Ii85Mzk4MTAwMy80MTI0NDQ0MzEtMjBlZGQyMTctNmY1Mi00YThmLWIyYTItNTc4NzRiYzgyZTdiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEyVDEzMzcwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY2MTEyODY4N2MwOGM3NGE0MGRhNjYzYjQ5Y2MxM2IyNDY3M2ViZDU1YmExYmIwNWE4M2UxMzJhZWVjMDFmYTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zZQ536Er4O4piU0F6q88QZz2kRSAeEbJRlEw6g7qSQM",
+    tags: [
+      "React.js",
+      "HTML5",
+      "Tailwind CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Responsive Design"
+    ],
+    category: "web app",
+    github: "https://github.com/NotSoToxic/strategyz-website",
+    webapp: "https://strategyzinc.com",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+    ],
+  },
+
+  {
+    id: 4,
     title: "Gesture Volume Controller",
     date: "Nov 2021 - Dec 2021",
     description:
@@ -328,47 +494,6 @@ export const projects = [
     github: "https://github.com/NotSoToxic/Surprise-Housing-Case-Study",
     webapp: "https://colab.research.google.com/drive/1kV-hFtM3hAN_eV2j-J9jGYH5baKXUTJ_?authuser=1#scrollTo=hVqiHGr-6OXX",
   },
-
-{
-  id: 4,
-  title: "News-Buzz",
-  date: "Oct 2023 - Dec 2023",
-  description:
-    "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
-  image:
-    "https://private-user-images.githubusercontent.com/93981003/412316404-b41550c0-4dbe-4a80-95fc-f69b2475c7d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzNDY2MTQsIm5iZiI6MTczOTM0NjMxNCwicGF0aCI6Ii85Mzk4MTAwMy80MTIzMTY0MDQtYjQxNTUwYzAtNGRiZS00YTgwLTk1ZmMtZjY5YjI0NzVjN2Q2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEyVDA3NDUxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjMjk2ZWZkMTMzOTk3OTIxNDFjNzA0NWUzNTNhM2JiMDk2YWI5NDI2MzAyYTYxMjJlMzA5NTE5OGMxYzViMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YBd3Z_w6Ar11oeyq7c3FT14ZdIiHVEgKcMCU5N9Fcyw",
-  tags: [
-    "Javascript",
-    "NodeJs",
-    "ReactJs",
-    "NewsAPI",
-    "MongoDB",
-    "ExpressJs",
-  ],
-  category: "web app",
-  github: "https://github.com/NotSoToxic/NewsBuzz/",
-  webapp: "https://news-buzz-green.vercel.app/register",
-  member: [
-    {
-      name: "Sarthak Joshi",
-      img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-      linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
-      github: "https://github.com/NotSoToxic",
-    },
-    {
-      name: "Devashish Jindal",
-      img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-      linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-      github: "https://github.com/drace28",
-    },
-    {
-      name: "Garvit Jain",
-      img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
-      linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
-      github: "https://github.com/megarvit",
-    },
-  ],
-},
 
 ];
 
