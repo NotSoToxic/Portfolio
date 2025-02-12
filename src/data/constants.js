@@ -192,7 +192,7 @@ export const projects = [
       {
         name: "Sarthak Joshi",
         img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
         github: "https://github.com/NotSoToxic",
       },
       {
@@ -237,7 +237,7 @@ export const projects = [
       {
         name: "Sarthak Joshi",
         img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
         github: "https://github.com/NotSoToxic",
       },
       {
@@ -288,7 +288,7 @@ export const projects = [
       {
         name: "Sarthak Joshi",
         img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
         github: "https://github.com/NotSoToxic",
       },
       {
@@ -329,46 +329,46 @@ export const projects = [
     webapp: "https://colab.research.google.com/drive/1kV-hFtM3hAN_eV2j-J9jGYH5baKXUTJ_?authuser=1#scrollTo=hVqiHGr-6OXX",
   },
 
-//  {
-//     id: 4,
-//     title: "News-Buzz",
-//     date: "Oct 2023 - Dec 2023",
-//     description:
-//       "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
-//     image:
-//       "https://github.com/NotSoToxic/Custom-Discord-Bot/assets/93981003/6a21bfec-3f32-450e-8e09-f641879dbf80",
-//     tags: [
-//       "Javascript",
-//       "NodeJs",
-//       "ReactJs",
-//       "NewsAPI",
-//       "MongoDB",
-//       "ExpressJs",
-//     ],
-//     category: "web app",
-//     github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
-//     webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
-//     member: [
-//       {
-//         name: "Sarthak Joshi",
-//         img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-//         linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
-//         github: "https://github.com/NotSoToxic",
-//       },
-//       {
-//         name: "Devashish Jindal",
-//         img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-//         linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-//         github: "https://github.com/drace28",
-//       },
-//       {
-//         name: "Garvit Jain",
-//         img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
-//         linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
-//         github: "https://github.com/megarvit",
-//       },
-//     ],
-//   },
+{
+  id: 4,
+  title: "News-Buzz",
+  date: "Oct 2023 - Dec 2023",
+  description:
+    "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
+  image:
+    "https://private-user-images.githubusercontent.com/93981003/412316404-b41550c0-4dbe-4a80-95fc-f69b2475c7d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzNDY2MTQsIm5iZiI6MTczOTM0NjMxNCwicGF0aCI6Ii85Mzk4MTAwMy80MTIzMTY0MDQtYjQxNTUwYzAtNGRiZS00YTgwLTk1ZmMtZjY5YjI0NzVjN2Q2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEyVDA3NDUxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjMjk2ZWZkMTMzOTk3OTIxNDFjNzA0NWUzNTNhM2JiMDk2YWI5NDI2MzAyYTYxMjJlMzA5NTE5OGMxYzViMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YBd3Z_w6Ar11oeyq7c3FT14ZdIiHVEgKcMCU5N9Fcyw",
+  tags: [
+    "Javascript",
+    "NodeJs",
+    "ReactJs",
+    "NewsAPI",
+    "MongoDB",
+    "ExpressJs",
+  ],
+  category: "web app",
+  github: "https://github.com/NotSoToxic/NewsBuzz/",
+  webapp: "https://news-buzz-green.vercel.app/register",
+  member: [
+    {
+      name: "Sarthak Joshi",
+      img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+      linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+      github: "https://github.com/NotSoToxic",
+    },
+    {
+      name: "Devashish Jindal",
+      img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+      linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+      github: "https://github.com/drace28",
+    },
+    {
+      name: "Garvit Jain",
+      img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
+      linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
+      github: "https://github.com/megarvit",
+    },
+  ],
+},
 
 ];
 
