@@ -329,47 +329,100 @@ export const projects = [
     webapp: "https://colab.research.google.com/drive/1kV-hFtM3hAN_eV2j-J9jGYH5baKXUTJ_?authuser=1#scrollTo=hVqiHGr-6OXX",
   },
 
- /* {
-    id: 4,
-    title: "News-Buzz",
-    date: "Oct 2023 - Dec 2023",
-    description:
-      "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
-    image:
-      "https://github.com/NotSoToxic/Custom-Discord-Bot/assets/93981003/6a21bfec-3f32-450e-8e09-f641879dbf80",
-    tags: [
-      "Javascript",
-      "NodeJs",
-      "ReactJs",
-      "NewsAPI",
-      "MongoDB",
-      "ExpressJs",
-    ],
-    category: "web app",
-    github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
-    webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
-  },*/
-  /*member: [
-      {
-        name: "Sarthak Joshi",
-        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
-        github: "https://github.com/NotSoToxic",
-      },
-      {
-        name: "Devashish Jindal",
-        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-        github: "https://github.com/drace28",
-      },
-      {
-        name: "Garvit Jain",
-        img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
-        linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
-        github: "https://github.com/megarvit",
-      },
-    ],*/
+//  {
+//     id: 4,
+//     title: "News-Buzz",
+//     date: "Oct 2023 - Dec 2023",
+//     description:
+//       "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
+//     image:
+//       "https://github.com/NotSoToxic/Custom-Discord-Bot/assets/93981003/6a21bfec-3f32-450e-8e09-f641879dbf80",
+//     tags: [
+//       "Javascript",
+//       "NodeJs",
+//       "ReactJs",
+//       "NewsAPI",
+//       "MongoDB",
+//       "ExpressJs",
+//     ],
+//     category: "web app",
+//     github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
+//     webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
+//     member: [
+//       {
+//         name: "Sarthak Joshi",
+//         img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+//         linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+//         github: "https://github.com/NotSoToxic",
+//       },
+//       {
+//         name: "Devashish Jindal",
+//         img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+//         linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+//         github: "https://github.com/drace28",
+//       },
+//       {
+//         name: "Garvit Jain",
+//         img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
+//         linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
+//         github: "https://github.com/megarvit",
+//       },
+//     ],
+//   },
 
+];
+
+export const experiences = [
+  {
+    id: 0,
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Alphabet.png?alt=media&token=cad1d219-8b03-4800-8290-a518a1126cc9",
+    role: "Process Developer Intern",
+    company: "Alphabet Inc",
+    date: "Nov 2021 - May 2022",
+    desc: "Proactively tackled HR automation challenges, leveraging process optimization tools and technologies to streamline workflows and ensure operational efficiency. Designed and implemented automation solutions for the onboarding process, utilizing scripting and workflow management tools; conducted feedback loops and collaborated with IT and HR teams to ensure seamless integration across platforms",
+    skills: [
+      "Process Automation",
+      "Workflow Management",
+      "Scripting",
+      "HR Systems",
+      "Process Optimization",
+      "Cross-functional Collaboration"
+    ]
+  },
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Axlrate.png?alt=media&token=f1720335-c78f-4ec1-a4d2-d33d3662ea69",
+    role: "Data Science Intern",
+    company: "Axlrate Research and Innovations LLP",
+    date: "Sept 2023 - Dec 2023",
+    desc: "Leveraged data analytics and machine learning to execute a comprehensive real-world business project, delivering actionable insights for organizational growth. Applied advanced statistical techniques and predictive modeling to solve complex business problems, optimizing decision-making processes.",
+    skills: [
+      "Data Analytics",
+      "Machine Learning",
+      "Statistical Analysis", 
+      "Predictive Modeling",
+      "Business Intelligence",
+      "Problem Solving"
+    ]
+  },
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Image.png?alt=media&token=0a15ceda-9f27-4151-b120-5b998e01acaf",
+    role: "Software Developer",
+    company: "Strategyz Inc.",
+    date: "Mar 2024 - Present",
+    desc: "Developed and deployed the Human Resource Management System Software using the MERN stack, leveraging CI/CD for AWS deployment and cloud server configuration. Configured serverless components in AWS Lambda using Python scripts. Automated IT operations, including M365 domain migration and system administration. Built SharePoint automation tools to enhance workflow efficiency.",
+    skills: [
+      "AWS",
+      "MERN Stack",
+      "Git",
+      "CI/CD Pipleine",
+      "Python",
+      "SharePoint Automation",
+      "Microsoft 365",
+      "System Administration"
+    ]
+  }
 ];
 
 export const contact = {
