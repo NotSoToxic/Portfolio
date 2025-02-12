@@ -1,19 +1,19 @@
 import React from 'react'
-import HeroBgAnimation from '../ImgBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './ImgStyle'
-import HeroImg from '../../images/MyImage.jpg';
+import ImgBgAnimation from '../ImgBgAnimation'
+import { ImgContainer, ImgBg, ImgLeftContainer, Img, ImgRightContainer, ImgInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './ImgStyle'
+import ImgImg from '../../images/MyImage.jpg';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
-const HeroSection = () => {
+const ImgSection = () => {
     return (
         <div id="about">
-            <HeroContainer>
-                <HeroBg>
-                    <HeroBgAnimation />
-                </HeroBg>
-                <HeroInnerContainer >
-                    <HeroLeftContainer id="Left">
+            <ImgContainer>
+                <ImgBg>
+                    <ImgBgAnimation />
+                </ImgBg>
+                <ImgInnerContainer >
+                    <ImgLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
@@ -29,17 +29,17 @@ const HeroSection = () => {
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ResumeButton href={Bio.resume} target='display'>My Resume</ResumeButton>
-                    </HeroLeftContainer>
+                    </ImgLeftContainer>
 
-                    <HeroRightContainer id="Right">
+                    <ImgRightContainer id="Right">
 
-                        <Img src={HeroImg} alt="hero-image" />
-                    </HeroRightContainer>
-                </HeroInnerContainer>
+                        <Img src={ImgImg} alt="Img-image" />
+                    </ImgRightContainer>
+                </ImgInnerContainer>
 
-            </HeroContainer>
+            </ImgContainer>
         </div>
     )
 }
 
-export default HeroSection
+export default ImgSection

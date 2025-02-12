@@ -1,7 +1,7 @@
 import styled from "styled-components";
 //import _default from "../../themes/default";
 
-export const HeroContainer = styled.div`
+export const ImgContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ export const HeroContainer = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
-export const HeroBg = styled.div`
+export const ImgBg = styled.div`
   position: absolute;
   display: flex;
   justify-content: end;
@@ -42,7 +42,7 @@ export const HeroBg = styled.div`
   }
 `;
 
-export const HeroInnerContainer = styled.div`
+export const ImgInnerContainer = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ export const HeroInnerContainer = styled.div`
     flex-direction: column;
   }
 `;
-export const HeroLeftContainer = styled.div`
+export const ImgLeftContainer = styled.div`
   width: 100%;
   order: 1;
   @media (max-width: 960px) {
@@ -74,7 +74,7 @@ export const HeroLeftContainer = styled.div`
   }
 `;
 
-export const HeroRightContainer = styled.div`
+export const ImgRightContainer = styled.div`
   width: 100%;
   display: flex;
   order: 2;
