@@ -412,6 +412,41 @@ export const projects = [
     ],
   },
   {
+    id: 3,
+    title: "Website for Strategyz Inc.",
+    date: "Mar 2024 - May 2024",
+    description:
+      "Designed and developed a modern, responsive website for Strategyz Inc. featuring dynamic service showcases, team profiles, and comprehensive company information. Implemented cutting-edge web technologies and industry best practices to create an engaging user experience with optimized performance and seamless navigation across all devices.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/web.png?alt=media&token=d0413d64-b65d-4ecb-b47b-cda38aed2785",
+    tags: [
+      "React.js",
+      "HTML5",
+      "Tailwind CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Responsive Design"
+    ],
+    category: "web app",
+    github: "https://github.com/NotSoToxic/strategyz-website",
+    webapp: "https://strategyzinc.com",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+    ],
+  },
+  
+  {
     id: 2,
     title: "News-Buzz",
     date: "Oct 2023 - Dec 2023",
@@ -448,40 +483,6 @@ export const projects = [
         img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
         linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
         github: "https://github.com/megarvit",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Website for Strategyz Inc.",
-    date: "Mar 2024 - May 2024",
-    description:
-      "Designed and developed a modern, responsive website for Strategyz Inc. featuring dynamic service showcases, team profiles, and comprehensive company information. Implemented cutting-edge web technologies and industry best practices to create an engaging user experience with optimized performance and seamless navigation across all devices.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/web.png?alt=media&token=d0413d64-b65d-4ecb-b47b-cda38aed2785",
-    tags: [
-      "React.js",
-      "HTML5",
-      "Tailwind CSS",
-      "Bootstrap",
-      "JavaScript",
-      "Responsive Design"
-    ],
-    category: "web app",
-    github: "https://github.com/NotSoToxic/strategyz-website",
-    webapp: "https://strategyzinc.com",
-    member: [
-      {
-        name: "Sarthak Joshi",
-        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
-        github: "https://github.com/NotSoToxic",
-      },
-      {
-        name: "Devashish Jindal",
-        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-        github: "https://github.com/drace28",
       },
     ],
   },
