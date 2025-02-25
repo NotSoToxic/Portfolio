@@ -117,7 +117,7 @@ export const skills = [
       {
         name: "Express Js",
         image:
-          "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
       
       
@@ -445,7 +445,7 @@ export const projects = [
       },
     ],
   },
-  
+
   {
     id: 2,
     title: "News-Buzz",
