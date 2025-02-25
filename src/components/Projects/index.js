@@ -27,22 +27,45 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APPs</ToggleButton>
           }
           <Divider />
-          <Divider />
           {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
+          <Divider />
+          {toggle === 'python projects' ?
+            <ToggleButton active value="python projects" onClick={() => setToggle('python projects')}>PYTHON PROJECTS</ToggleButton>
+            :
+            <ToggleButton value="python projects" onClick={() => setToggle('python projects')}>PYTHON PROJECTS</ToggleButton>
+          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard 
+                project={{
+                  ...project,
+                  webapp: project.category === 'python projects' ? null : project.webapp
+                }} 
+                openModal={openModal} 
+                setOpenModal={setOpenModal}
+              />
             ))}
           {projects
-            .filter((item) => item.category === toggle)
+            .filter((item) => 
+              Array.isArray(item.category) 
+                ? item.category.includes(toggle)
+                : item.category === toggle
+            )
             .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard 
+                project={{
+                  ...project,
+                  webapp: project.category === 'python projects' ? null : project.webapp
+                }}
+                openModal={openModal} 
+                setOpenModal={setOpenModal}
+              />
             ))}
         </CardContainer>
       </Wrapper>

@@ -496,8 +496,9 @@ export const projects = [
     image:
       "https://github.com/NotSoToxic/Python-Projects/assets/93981003/8c1c5834-9d84-4c58-8efd-587e77b5fcad",
     tags: [
-      "Pycaw", "ImageRecognition", "OpenCv", "Meadiapipe", "Numpy"],
-    category: "machine learning",
+      "Pycaw", "ImageRecognition", "OpenCv", "Meadiapipe", "Numpy", "Machine Learning"
+    ],
+    category: ["machine learning", "python projects"],
     github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Gesture-Volume-Controller-for-Windows",
   },
 
@@ -515,6 +516,90 @@ export const projects = [
     github: "https://github.com/NotSoToxic/Surprise-Housing-Case-Study",
     webapp: "https://colab.research.google.com/drive/1kV-hFtM3hAN_eV2j-J9jGYH5baKXUTJ_?authuser=1#scrollTo=hVqiHGr-6OXX",
   },
+  {
+    id: 4,
+    title: "Galaxy Shooter Game",  
+    date: "Oct 2022 - Oct 2022",
+    description:
+      "Developed a 2D space shooter game using Python and Pygame, providing an engaging and interactive experience for users. The game features a player ship that can move around the screen, shoot projectiles, and avoid incoming enemies while collecting power-ups to enhance gameplay.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/game2.png?alt=media&token=2fdf70b9-a1ba-47dc-89b4-0ad1e563e4da",
+    tags: [
+      "Python", "Pygame", "Random", "Time", "Math", "Sys", "OS"],
+    category: "python projects",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Galaxy-Shooter-Game-Using-Python",
+    // webapp: "https://colab.research.google.com/drive/14VfNzw-sF1ht22Rtd_F9cqdVCLOWywHB?authuser=1#scrollTo=KJHVTAScOCs2&line=40&uniqifier=1",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      
+    ],
+  },
+  {
+    id: 5,
+    title: "Hand Gesture Recognition",
+    date: "July 2022 - September 2021",
+    description:
+      "Developed a hand gesture recognition system using computer vision and machine learning to detect and interpret hand gestures. The system uses a webcam to capture live video and recognize gestures, providing a user-friendly interface for interacting with the system.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/file.gif?alt=media&token=c2732e95-3aff-4bb3-935a-e4a301ba7609",
+    tags: [
+      "Python", "TensorFlow", "Keras", "OpenCV", "MediaPipe", "NumPy", "Computer Vision", "Deep Learning", "Machine Learning", "Hand Gesture Recognition", "Model Deployment"],
+    category: "machine learning",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Hand-Gesture-Recognition",
+    // webapp: "https://colab.research.google.com/drive/1uTDycAodIRtpy4Um_bNBd2YmTA30fQRN?usp=sharing",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      
+    ],
+  },  
+  {
+    id: 6,
+    title: "Ping-Pong Game",
+    date: "Nov 2021 - Nov 2021",
+    description:
+      "Developed a ping-pong game using Python and Pygame, providing an engaging and interactive experience for users. The game features a player ship that can move around the screen, shoot projectiles, and avoid incoming enemies while collecting power-ups to enhance gameplay.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/pong.png?alt=media&token=5ac95455-d80b-4500-9d05-26aa126643ee",
+    tags: [
+      "Python", "Pygame", "Random", "Time", "Math", "Sys", "OS"],
+    category: "python projects",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Ping-Pong-Game-Using-Python-main",
+  },
+  {
+    id: 7,
+    title: "Draw Doraemon using Python",
+    date: "Jan 2022 - Feb 2022",
+    description:
+      "Created a Python script using Turtle graphics to draw a detailed illustration of Doraemon, the beloved cartoon character. The script uses mathematical calculations and turtle commands to draw various shapes and curves, resulting in an accurate representation of Doraemon's iconic design.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/turtle.jfif?alt=media&token=db80a3e7-1f39-4178-aff3-79468c521802",
+    tags: [
+      "Python", "Turtle", "Math", "Drawing", "Animation"],
+    category: "python projects",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Drawing-Doraemon-Using-Python",
+  }
 
 ];
 
