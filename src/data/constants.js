@@ -193,6 +193,11 @@ export const skills = [
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
       },
       {
+        name: "Google Colab",
+        image:
+          "https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000",
+      },
+      {
         name: "Git",
         image:
           "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
