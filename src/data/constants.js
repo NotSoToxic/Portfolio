@@ -198,6 +198,21 @@ export const skills = [
           "https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000",
       },
       {
+        name: "Google Drive",
+        image:
+          "https://img.icons8.com/?size=100&id=ya4CrqO7PgnY&format=png&color=000000",
+      },
+      {
+        name: "Google Cloud",
+        image:
+          "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000",
+      },
+      {
+        name: "Google Cloud Platform",
+        image:
+          "https://img.icons8.com/?size=100&id=20774&format=png&color=000000",
+      },
+      {
         name: "Git",
         image:
           "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
