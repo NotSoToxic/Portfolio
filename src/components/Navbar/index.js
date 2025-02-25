@@ -14,7 +14,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}
+               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <DiTerminal size="3rem" /> <Span>Portfolio</Span>
           </div>
         </NavLogo>

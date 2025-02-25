@@ -396,7 +396,7 @@ export const projects = [
     title: "News-Buzz",
     date: "Oct 2023 - Dec 2023",
     description:
-      "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
+      "News-Buzz is a news application that allows users to stay updated with the latest news and empowers them to contribute by publishing their own articles and blog posts.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/news.png?alt=media&token=f2e77776-15e6-4bea-b10e-2bba7307696c",
     tags: [
@@ -436,7 +436,7 @@ export const projects = [
     title: "Website for Strategyz Inc.",
     date: "Mar 2024 - May 2024",
     description:
-      "A modern, responsive company website built for Strategyz Inc. showcasing their services, team, and company information using modern web technologies and best practices.",
+      "Designed and developed a modern, responsive website for Strategyz Inc. featuring dynamic service showcases, team profiles, and comprehensive company information. Implemented cutting-edge web technologies and industry best practices to create an engaging user experience with optimized performance and seamless navigation across all devices.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/web.png?alt=media&token=d0413d64-b65d-4ecb-b47b-cda38aed2785",
     tags: [
@@ -471,7 +471,7 @@ export const projects = [
     title: "Gesture Volume Controller",
     date: "Nov 2021 - Dec 2021",
     description:
-      "Gesture Volume Controller is a real-time volume control system for windows that uses computer vision and machine learning to adjust the Windows audio volume based on hand gestures captured from a webcam.",
+      "Developed an innovative real-time volume control system using computer vision and machine learning that allows users to adjust Windows audio volume through intuitive hand gestures. The system utilizes webcam input to accurately track hand movements and translates them into precise volume adjustments, providing a hands-free and interactive way to control system audio.",
     image:
       "https://github.com/NotSoToxic/Python-Projects/assets/93981003/8c1c5834-9d84-4c58-8efd-587e77b5fcad",
     tags: [
@@ -485,7 +485,7 @@ export const projects = [
     title: "Suprise Housing Case Study",
     date: "Oct 2023 - Dec 2023",
     description:
-      "Optimizing real estate strategies through advanced data analytics and machine learning techniques.",
+      "Conducted comprehensive analysis of housing market data using advanced regression techniques to predict house prices. Implemented feature engineering, model selection, and regularization methods to develop accurate price prediction models. Provided strategic insights for investment decisions in the US housing market through detailed statistical analysis and data visualization.",
     image:
       "https://github.com/NotSoToxic/Surprise-Housing-Case-Study/assets/93981003/0f8f00ae-9326-42a3-bdfe-92b5ba6e9560",
     tags: [
