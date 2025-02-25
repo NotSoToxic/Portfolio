@@ -494,7 +494,7 @@ export const projects = [
     description:
       "Developed an innovative real-time volume control system using computer vision and machine learning that allows users to adjust Windows audio volume through intuitive hand gestures. The system utilizes webcam input to accurately track hand movements and translates them into precise volume adjustments, providing a hands-free and interactive way to control system audio.",
     image:
-      "https://github.com/NotSoToxic/Python-Projects/assets/93981003/8c1c5834-9d84-4c58-8efd-587e77b5fcad",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/vol.png?alt=media&token=0082a5d6-c547-4645-9035-d3c21c84cc22",
     tags: [
       "Pycaw", "ImageRecognition", "OpenCv", "Meadiapipe", "Numpy", "Machine Learning"
     ],
