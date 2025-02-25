@@ -30,7 +30,7 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image: "https://img.icons8.com/?size=100&id=qOFWMoaAQIdR&format=png&color=000000",
+        image: "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
       },
       {
         name: "Redux",
@@ -117,7 +117,7 @@ export const skills = [
       {
         name: "Express Js",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000",
       },
       
       
