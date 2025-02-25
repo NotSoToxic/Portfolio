@@ -398,7 +398,7 @@ export const projects = [
     description:
       "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
     image:
-      "https://private-user-images.githubusercontent.com/93981003/412440461-5d5aba49-2a9f-4227-bec8-b0408af824d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzNjcwODcsIm5iZiI6MTczOTM2Njc4NywicGF0aCI6Ii85Mzk4MTAwMy80MTI0NDA0NjEtNWQ1YWJhNDktMmE5Zi00MjI3LWJlYzgtYjA0MDhhZjgyNGQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEyVDEzMjYyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUwMzZiY2RmOTFiYzVlNmVlZDIwYzMyZDliMjcxYTE0Y2I2NjdmODE5ZDg3NTQyOGUwMmMxMTMwZTE4M2Q3NTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.upN1G_FieEOyxUoyFR35L0IaYQ3fF_tcN4i2bZ3I_64",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/news.png?alt=media&token=f2e77776-15e6-4bea-b10e-2bba7307696c",
     tags: [
       "Javascript",
       "NodeJs",
@@ -438,7 +438,7 @@ export const projects = [
     description:
       "A modern, responsive company website built for Strategyz Inc. showcasing their services, team, and company information using modern web technologies and best practices.",
     image:
-      "https://private-user-images.githubusercontent.com/93981003/412444431-20edd217-6f52-4a8f-b2a2-57874bc82e7b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkzNjc3MjAsIm5iZiI6MTczOTM2NzQyMCwicGF0aCI6Ii85Mzk4MTAwMy80MTI0NDQ0MzEtMjBlZGQyMTctNmY1Mi00YThmLWIyYTItNTc4NzRiYzgyZTdiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEyVDEzMzcwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY2MTEyODY4N2MwOGM3NGE0MGRhNjYzYjQ5Y2MxM2IyNDY3M2ViZDU1YmExYmIwNWE4M2UxMzJhZWVjMDFmYTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zZQ536Er4O4piU0F6q88QZz2kRSAeEbJRlEw6g7qSQM",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/web.png?alt=media&token=d0413d64-b65d-4ecb-b47b-cda38aed2785",
     tags: [
       "React.js",
       "HTML5",
