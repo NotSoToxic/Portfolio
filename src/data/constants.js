@@ -256,9 +256,9 @@ export const education = [
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/desktop-wallpaper-vit-logo-vellore-institute-of-technology-vector-indian-institute-logo.jpg?alt=media&token=bb528686-4c53-435e-a223-43abe1c9c9d0", //not
     school: "Vellore Instutute of Technology",
-    date: "Aug 2017 - Sept 2021",
+    date: "Aug 2021 - August 2025",
     grade: "9.12 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Instutute of Technology. I have completed 6 semesters and have a CGPA of 9.12. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, and Computer Networks, among others.",
+    desc: "Pursued a Bachelor’s degree in Computer Science and Engineering from Vellore Institute of Technology (VIT).With a CGPA of 9.12. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
