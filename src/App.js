@@ -1,60 +1,82 @@
-import { ThemeProvider } from "styled-components";
-import { useState, } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
-import Navbar from "./components/Navbar";
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import ImgSection from "./components/ImgSection";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";   
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Education from "./components/Education";
-import ProjectDetails from "./components/ProjectDetails";
-import styled from "styled-components";
+import React, { useState, useEffect } from 'react';
+import Intro from './components/Intro/index.jsx';
+import BackgroundCanvas from './components/BackgroundCanvas/index.jsx';
+import Cursor from './components/Cursor/index.jsx';
+import Navbar from './components/Navbar/index.jsx';
+import Hero from './components/Hero/index.jsx';
+import Ticker from './components/Ticker/index.jsx';
+import Projects from './components/Projects/index.jsx';
+import Experience from './components/Experience/index.jsx';
+import Education from './components/Education/index.jsx';
+import Skills from './components/Skills/index.jsx';
+import Contact from './components/Contact/index.jsx';
+import Footer from './components/Footer/index.jsx';
+import TerminalModal from './components/TerminalModal/index.jsx';
 
-const Body = styled.div`
-  background-color: ${({ theme }) => theme.bg};
-  width: 100%;
-  overflow-x: hidden;
-`
-
-const Wrapper = styled.div`
-  background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
-  width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
-`
 function App() {
-  const [darkMode,] = useState(true);
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  const [isDark, setIsDark] = useState(() => {
+    const saved = localStorage.getItem('portfolio-theme');
+    if (saved !== null) {
+      return saved === 'dark';
+    }
+    return true; // Default to dark theme
+  });
+
+  const [isTerminalOpen, setIsTerminalOpen] = useState(false);
+
+  useEffect(() => {
+    if (isDark) {
+      document.body.classList.add('dark');
+      localStorage.setItem('portfolio-theme', 'dark');
+    } else {
+      document.body.classList.remove('dark');
+      localStorage.setItem('portfolio-theme', 'light');
+    }
+  }, [isDark]);
+
+  // Keyboard shortcut: ` (backtick) toggles terminal
+  useEffect(() => {
+    const onGlobalKey = (e) => {
+      if (e.key === '`' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) {
+        e.preventDefault();
+        setIsTerminalOpen(prev => !prev);
+      }
+    };
+    window.addEventListener('keydown', onGlobalKey);
+    return () => window.removeEventListener('keydown', onGlobalKey);
+  }, []);
+
+  const toggleTheme = (val) => {
+    setIsDark(prev => (typeof val === 'boolean' ? val : !prev));
+  };
+
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
-        <Navbar />
-        <Body>
-          <About />
-          <ImgSection />
-          <Wrapper>
-            <Skills />
-            <Experience/>
-          </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Wrapper>
-            <Education />
-          </Wrapper>
-          <Wrapper>
-            <Contact />
-          </Wrapper>
-          <Footer />
-          {openModal.state &&
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
-        </Body>
-      </Router>
-    </ThemeProvider>
+    <>
+      <Intro isDark={isDark} toggleTheme={toggleTheme} />
+      <BackgroundCanvas isDark={isDark} />
+      <Cursor />
+      <Navbar
+        isDark={isDark}
+        toggleTheme={toggleTheme}
+        onOpenTerminal={() => setIsTerminalOpen(true)}
+      />
+      <main>
+        <Hero />
+        <Ticker />
+        <Projects />
+        <Experience />
+        <Education />
+        <Skills />
+        <Contact />
+      </main>
+      <Footer />
+      <TerminalModal
+        isOpen={isTerminalOpen}
+        onClose={() => setIsTerminalOpen(false)}
+        isDark={isDark}
+        toggleTheme={toggleTheme}
+      />
+    </>
   );
 }
 

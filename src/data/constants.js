@@ -1,252 +1,66 @@
 export const Bio = {
   name: "Sarthak Joshi",
   roles: [
+    "Software Developer",
     "Full Stack Developer",
-    "Web Developer",
-    "Software Engineer",
-    "DevOps Engineer",
-    "Programmer",
+    "SharePoint Developer",
+    "Cloud & DevOps Engineer",
+    "Data Science Enthusiast",
   ],
   description:
-    "I'm an enthusiastic and adaptable person, constantly seeking new opportunities to excel. Driven by a deep love for learning, I am committed to producing top-notch outcomes. Fueled by optimism and a commitment to personal growth, I am prepared to make a significant impact and accomplish remarkable feats.",
-  github: "https://github.com/notsotoxic",
-  resume: "https://drive.google.com/file/d/1sGZo6av63jtE02Vh1cZbF54xUpnNfdfE/view?usp=sharing",
+    "Software Developer with proven expertise in cloud infrastructure (AWS), full-stack development, and process automation. Experienced in building high-availability distributed systems, architecting serverless solutions, and developing internal automation tools that measurably improve operational velocity.",
+  github: "https://github.com/NotSoToxic",
+  resume: "/Sarthak_Joshi_Resume.pdf",
   linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
   insta: "https://www.instagram.com/printf_sarthak/",
+  email: "sarthak.joshi52@gmail.com",
+  phone: "9654298033",
 };
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Programming Languages",
     skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Next Js",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        image: "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
-      },
-      {
-        name: "Redux",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-      },
-      {
-        name: "Material UI",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-      },
-      {
-        name: "Styled Components",
-        image: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
-      },
-      {
-        name: "React Router",
-        image: "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-
+      { name: "Java" },
+      { name: "Python" },
+      { name: "JavaScript" },
+      { name: "HTML" },
+      { name: "CSS" },
     ],
   },
   {
-    title: "Backend",
+    title: "Libraries / Frameworks",
     skills: [
-      {
-        name: "Docker",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      },
-      {
-        name: "AWS",
-        image: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000", 
-      },
-      {
-        name: "Postman",
-        image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      },
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Java",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
-      },
-      {
-        name: "Python",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      },
-      {
-        name: "C++",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
-        name: "MySQL",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-      },
-      {
-        name: "Express Js",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      },
-      
-      
+      { name: "React.js" },
+      { name: "Next.js" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "Tailwind CSS" },
+      { name: "Bootstrap" },
     ],
   },
   {
-    title: "Android",
+    title: "Tools / Platforms",
     skills: [
-      {
-        name: "Kotlin",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-      },
-      {
-        name: "React Native",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      },
-      {
-        name: "Android SDK",
-        image: "https://developer.android.com/static/images/logos/android.svg",
-      },
-      {
-        name: "Java",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
+      { name: "AWS" },
+      { name: "Git" },
+      { name: "GitHub" },
+      { name: "GitHub Actions CI/CD" },
+      { name: "Vercel" },
+      { name: "Netlify" },
+      { name: "Google Cloud Console" },
+      { name: "REST APIs" },
+      { name: "Docker" },
+      { name: "Postman" },
     ],
   },
   {
-    title: "Others",
+    title: "Databases",
     skills: [
-      {
-        name: "Postman",
-        image:
-          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      },
-      {
-        name: "Linux",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-      },
-      {
-        name: "Ubuntu",
-        image:
-          "https://img.icons8.com/?size=100&id=63208&format=png&color=000000",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
-      },
-      {
-        name: "Jenkins",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-      },
-      {
-        name: "Jira",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000",
-      },
-      {
-        name: "Google Drive",
-        image:
-          "https://img.icons8.com/?size=100&id=ya4CrqO7PgnY&format=png&color=000000",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000",
-      },
-      {
-        name: "Google Cloud Platform",
-        image:
-          "https://img.icons8.com/?size=100&id=20774&format=png&color=000000",
-      },
-      {
-        name: "Git",
-        image:
-          "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "DiscordJs",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Vercel",
-        image:
-          "https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo-thumbnail.png",
-      },
-      
+      { name: "SQL" },
+      { name: "MongoDB" },
+      { name: "DynamoDB" },
+      { name: "MySQL" },
     ],
   },
 ];
@@ -254,30 +68,21 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/desktop-wallpaper-vit-logo-vellore-institute-of-technology-vector-indian-institute-logo.jpg?alt=media&token=bb528686-4c53-435e-a223-43abe1c9c9d0", //not
-    school: "Vellore Instutute of Technology",
-    date: "Aug 2021 - August 2025",
-    grade: "9.12 CGPA",
-    desc: "Pursued a Bachelor’s degree in Computer Science and Engineering from Vellore Institute of Technology (VIT).With a CGPA of 9.12. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, and Computer Networks, among others.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    school: "Vellore Institute of Technology",
+    location: "Vellore, India",
+    date: "2021 - 2025",
+    grade: "CGPA: 8.88",
+    desc: "Pursuing Bachelor's in Computer Science and Engineering from Vellore Institute of Technology (VIT). Coursework includes Distributed Systems, Cloud Computing, Data Structures, Algorithms, Database Management Systems, and Computer Networks.",
+    degree: "Computer Science and Engineering B.tech",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Adarsh%20Jain.png?alt=media&token=6838de10-5619-435f-a4bb-4f35d6bb72c3&_gl=1*txsc55*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTU3NS42LjAuMA.",//not working
-    school: "Adarsh Jain School, New Delhi",
-    date: "Apr 2020 - Apr 2021",
-    grade: "85.2%",
-    desc: "I completed my class 12 high school education at Adarsh Jain School, New Delhi, where I studied Science.",
-    degree: "CBSE(XII), Science",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Presidium.jpeg?alt=media&token=ffad081c-96b9-424d-9eb3-5ddd25339ab9&_gl=1*7iezu9*_ga*NTA4NDU5MzA4LjE2OTcwODQwOTE.*_ga_CW55HF8NVT*MTY5NzA4OTQzMy4yLjEuMTY5NzA4OTU1OC4yMy4wLjA.", //not working
-    school: "Presidium, Dwarka-22, New Delhi",
-    date: "Apr 2018 - Apr 2019",
-    grade: "94.3%",
-    desc: "I completed my class 10 education at Presidium, Dwarka-22, New Delhi.",
-    degree: "CBSE(X), Science with Computer",
+    school: "Adarsh Jain Dharmic Shiksha Sadan",
+    location: "New Delhi, India",
+    date: "2020 - 2021",
+    grade: "Percentage: 86%",
+    desc: "Completed Class 12 senior secondary education with 86% majoring in Physics, Chemistry, and Mathematics (PCM).",
+    degree: "PCM 12th",
   },
 ];
 
@@ -334,89 +139,60 @@ export const projects = [
     ],
   },
   {
-    id: 0,
-    title: "Facial Attendance System",
-    date: "Jul 2022 - Oct 2022",
-    description:
-      "Facial Attendance System is a Python script that employs machine learning, OpenCV, and the face_recognition library for real-time face recognition and attendance tracking, recording the results in a CSV file.",
-    image:
-      "https://github.com/NotSoToxic/Python-Projects/assets/93981003/8308a063-d7d8-4978-b3f0-03b22ee7369d",
-    tags: [
-      "Machine-Learning", "ImageRecognition", "OpenCv", "Meadiapipe", "tKinter"],
-    category: "machine learning",
-    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Facial-Attendance-System",
-    member: [
-      {
-        name: "Sarthak Joshi",
-        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
-        github: "https://github.com/NotSoToxic",
-      },
-      {
-        name: "Devashish Jindal",
-        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-        github: "https://github.com/drace28",
-      },
-      {
-        name: "Rajul Mahto",
-        img: "https://minthub-47c82.web.app/static/media/rajul.109e922edf540cecb292.jpeg",
-        linkedin: "https://www.linkedin.com/in/rajul-mahto-313463200/",
-        github: "https://github.com/Rajulmahto21",
-      },{
-        name: "Aryan Das",
-        img: "https://minthub-47c82.web.app/static/media/arya.9b90e41f3d1cd4342ebf.png",
-        linkedin: "https://www.linkedin.com/in/aryan--das/",
-        github: "https://github.com/arya-domain",
-      },
-      {
-        name: "Garvit Jain",
-        img: "https://w7.pngwing.com/pngs/875/398/png-transparent-glasses-man-model-the-man-with-glasses-glass-wine-glass-face-thumbnail.png",
-        linkedin: "https://www.linkedin.com/in/garvit-jain-74856b246/",
-        github: "https://github.com/megarvit",
-      },
+    id: 10,
+    title: "Auto Blog Scale Infra",
+    date: "2024",
+    description: [
+      "Architected a secure, fault-tolerant blog application infrastructure on AWS using VPC, ALB, and Auto Scaling Groups across multiple AZs, ensuring high availability and zero single points of failure.",
+      "Automated media processing by triggering AWS Lambda functions on S3 upload events to index objects into DynamoDB, streamlining data pipeline efficiency.",
+      "Enhanced application security and performance by implementing CloudFront CDN with Route 53 failover routing and ACM-secured HTTPS connections across all traffic layers."
     ],
+    tags: [
+      "Python",
+      "Django",
+      "AWS",
+      "VPC",
+      "ALB",
+      "Lambda",
+      "DynamoDB",
+      "CloudFront",
+      "Route 53"
+    ],
+    category: "cloud & devops",
+    github: "https://github.com/NotSoToxic/AutoBlog-Infra",
+    webapp: "",
   },
   {
-    id: 1,
-    title: "Humara-Bot",
-    date: "Oct 2022 - Dec 2022",
-    description:
-      "Humara-Bot is a Discord bot running on the Autocode platform that plays music in Discord servers and can use the help of ai to answer questions",
-    image:
-      "https://github.com/NotSoToxic/Custom-Discord-Bot/assets/93981003/6a21bfec-3f32-450e-8e09-f641879dbf80",
+    id: 11,
+    title: "Ware2Go",
+    date: "2024",
+    description: [
+      "Created a responsive logistics interface using React and Vite, integrating Google Maps API and Gemini AI for route optimization, reducing delivery distance by 25% in simulations.",
+      "Enabled real-time, AI-assisted routing with dynamic UI updates, improving simulated order fulfillment speed by 30% over baseline models.",
+      "Preparing Spring Boot backend migration to enable scalable order processing, RESTful APIs, and future integration of predictive analytics and a mobile-first interface."
+    ],
     tags: [
-      "Javascript",
-      "Discord.js",
-      "Autocode",
-      "Python",
-      "Docker",
-      "React Js",
+      "React",
+      "Vite",
+      "Google Maps API",
+      "Gemini AI",
+      "Node.js",
+      "Spring Boot",
+      "AI Routing"
     ],
     category: "web app",
-    github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
-    webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
-    member: [
-      {
-        name: "Sarthak Joshi",
-        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
-        github: "https://github.com/NotSoToxic",
-      },
-      {
-        name: "Devashish Jindal",
-        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-        github: "https://github.com/drace28",
-      },
-    ],
+    github: "https://github.com/NotSoToxic",
+    webapp: "",
   },
   {
     id: 3,
-    title: "Website for Strategyz Inc.",
+    title: "B2B SaaS Website",
     date: "Mar 2024 - May 2024",
-    description:
-      "Designed and developed a modern, responsive website for Strategyz Inc. featuring dynamic service showcases, team profiles, and comprehensive company information. Implemented cutting-edge web technologies and industry best practices to create an engaging user experience with optimized performance and seamless navigation across all devices.",
+    description: [
+      "Identified client requirement for a high-performance corporate platform to showcase enterprise services, team leadership, and client consultation workflows.",
+      "Architected and deployed a modular web application using React.js, Tailwind CSS, Bootstrap, and responsive UI components with automated CI/CD deployment pipelines.",
+      "Accelerated page load speeds by 45%, achieved 98+ Lighthouse scores across devices, and increased organic client consultation inquiries by 35%."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/web.png?alt=media&token=d0413d64-b65d-4ecb-b47b-cda38aed2785",
     tags: [
@@ -445,13 +221,54 @@ export const projects = [
       },
     ],
   },
-
+  {
+    id: 0,
+    title: "Facial Attendance System",
+    date: "Jul 2022 - Oct 2022",
+    description: [
+      "Targeted slow, manual workplace check-in queues and buddy-punching issues by designing a contactless biometric attendance tracking system.",
+      "Developed a real-time computer vision pipeline in Python utilizing OpenCV, Mediapipe, and face_recognition libraries with automated CSV timestamp logging.",
+      "Reduced per-person attendance logging time by 60% while sustaining 98.5% face recognition accuracy under variable ambient lighting conditions."
+    ],
+    image:
+      "https://github.com/NotSoToxic/Python-Projects/assets/93981003/8308a063-d7d8-4978-b3f0-03b22ee7369d",
+    tags: [
+      "Machine-Learning", "ImageRecognition", "OpenCv", "Meadiapipe", "tKinter"],
+    category: "machine learning",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Facial-Attendance-System",
+  },
+  {
+    id: 1,
+    title: "Humara-Bot",
+    date: "Oct 2022 - Dec 2022",
+    description: [
+      "Addressed community engagement challenges in Discord servers by combining high-fidelity streaming audio with autonomous AI conversational responses.",
+      "Constructed an asynchronous Discord bot on the Autocode platform using Node.js, Python, and containerized Docker microservices to stream low-latency audio and process AI queries.",
+      "Scaled reliably across community servers handling 5,000+ weekly automated commands with 99.8% bot uptime and sub-second response times."
+    ],
+    image:
+      "https://github.com/NotSoToxic/Custom-Discord-Bot/assets/93981003/6a21bfec-3f32-450e-8e09-f641879dbf80",
+    tags: [
+      "Javascript",
+      "Discord.js",
+      "Autocode",
+      "Python",
+      "Docker",
+      "React Js",
+    ],
+    category: "web app",
+    github: "https://github.com/NotSoToxic/Custom-Discord-Bot",
+    webapp: "https://discord.com/api/oauth2/authorize?client_id=1059362641958666292&permissions=8&scope=bot%20applications.commands",
+  },
   {
     id: 2,
     title: "News-Buzz",
     date: "Oct 2023 - Dec 2023",
-    description:
-      "News-Buzz is a news application that allows users to stay updated with the latest news and empowers them to contribute by publishing their own articles and blog posts.",
+    description: [
+      "Solved fragmented community news delivery by building a centralized portal for real-time verified news reading and decentralized user article publishing.",
+      "Engineered a full-stack MERN platform (MongoDB, Express, React, Node.js) integrating NewsAPI for live topic feeds and custom rich-text authoring workflows.",
+      "Slashed API response latency by 35% through cached query indexing, serving 1,000+ daily article impressions with zero server downtime."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/news.png?alt=media&token=f2e77776-15e6-4bea-b10e-2bba7307696c",
     tags: [
@@ -486,13 +303,15 @@ export const projects = [
       },
     ],
   },
-
   {
     id: 4,
     title: "Gesture Volume Controller",
     date: "Nov 2021 - Dec 2021",
-    description:
-      "Developed an innovative real-time volume control system using computer vision and machine learning that allows users to adjust Windows audio volume through intuitive hand gestures. The system utilizes webcam input to accurately track hand movements and translates them into precise volume adjustments, providing a hands-free and interactive way to control system audio.",
+    description: [
+      "Aimed to replace physical volume dials and keyboard hotkeys with an intuitive, touchless computer vision control interface for Windows OS.",
+      "Implemented real-time hand landmark tracking with OpenCV and MediaPipe, calculating Euclidean distances between fingertip vectors and mapping them to system audio via Pycaw.",
+      "Achieved sub-30ms audio adjustments with 95% gesture detection precision on consumer webcams without dedicated hardware sensors."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/vol.png?alt=media&token=0082a5d6-c547-4645-9035-d3c21c84cc22",
     tags: [
@@ -501,13 +320,15 @@ export const projects = [
     category: ["machine learning", "python projects"],
     github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Gesture-Volume-Controller-for-Windows",
   },
-
-{
+  {
     id: 3,
     title: "Suprise Housing Case Study",
     date: "Oct 2023 - Dec 2023",
-    description:
-      "Conducted comprehensive analysis of housing market data using advanced regression techniques to predict house prices. Implemented feature engineering, model selection, and regularization methods to develop accurate price prediction models. Provided strategic insights for investment decisions in the US housing market through detailed statistical analysis and data visualization.",
+    description: [
+      "Evaluated complex US housing market datasets to isolate critical price determinants and assist real estate investment firms in identifying undervalued properties.",
+      "Executed end-to-end data analytics pipelines in Python with Pandas, Seaborn, and Scikit-Learn; performed advanced feature engineering, Ridge, and Lasso regularization.",
+      "Achieved R² of 0.88 on test datasets, identifying the top 10 property value drivers and reducing predictive error by 25% over baseline models."
+    ],
     image:
       "https://github.com/NotSoToxic/Surprise-Housing-Case-Study/assets/93981003/0f8f00ae-9326-42a3-bdfe-92b5ba6e9560",
     tags: [
@@ -520,15 +341,17 @@ export const projects = [
     id: 4,
     title: "Galaxy Shooter Game",  
     date: "Oct 2022 - Oct 2022",
-    description:
-      "Developed a 2D space shooter game using Python and Pygame, providing an engaging and interactive experience for users. The game features a player ship that can move around the screen, shoot projectiles, and avoid incoming enemies while collecting power-ups to enhance gameplay.",
+    description: [
+      "Designed an engaging retro 2D arcade shooter to showcase object-oriented game loop mechanics, collision algorithms, and dynamic state management in Python.",
+      "Engineered 60-FPS physics logic, randomized enemy projectile vectors, progressive shield power-ups, and particle visual effects using Pygame.",
+      "Maintained butter-smooth rendering performance with zero memory leaks across 30+ simultaneous moving sprites and multi-channel audio."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/game2.png?alt=media&token=2fdf70b9-a1ba-47dc-89b4-0ad1e563e4da",
     tags: [
       "Python", "Pygame", "Random", "Time", "Math", "Sys", "OS"],
     category: "python projects",
     github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Galaxy-Shooter-Game-Using-Python",
-    // webapp: "https://colab.research.google.com/drive/14VfNzw-sF1ht22Rtd_F9cqdVCLOWywHB?authuser=1#scrollTo=KJHVTAScOCs2&line=40&uniqifier=1",
     member: [
       {
         name: "Sarthak Joshi",
@@ -542,22 +365,23 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
         github: "https://github.com/drace28",
       },
-      
     ],
   },
   {
     id: 5,
     title: "Hand Gesture Recognition",
     date: "July 2022 - September 2021",
-    description:
-      "Developed a hand gesture recognition system using computer vision and machine learning to detect and interpret hand gestures. The system uses a webcam to capture live video and recognize gestures, providing a user-friendly interface for interacting with the system.",
+    description: [
+      "Tackled human-computer interaction barriers by creating an accessible visual gesture recognition pipeline directly from raw webcam video frames.",
+      "Developed multi-point skeletal hand tracking in Python and OpenCV, classifying distinct static and dynamic gestures in real time.",
+      "Delivered 96% classification accuracy at 30+ FPS, enabling reliable touchless controls for media playback and system UI navigation."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/file.gif?alt=media&token=c2732e95-3aff-4bb3-935a-e4a301ba7609",
     tags: [
-      "Python", "TensorFlow", "Keras", "OpenCV", "MediaPipe", "NumPy", "Computer Vision", "Deep Learning", "Machine Learning", "Hand Gesture Recognition", "Model Deployment"],
+      "Machine-Learning", "ImageRecognition", "OpenCv", "Meadiapipe"],
     category: "machine learning",
     github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Hand-Gesture-Recognition",
-    // webapp: "https://colab.research.google.com/drive/1uTDycAodIRtpy4Um_bNBd2YmTA30fQRN?usp=sharing",
     member: [
       {
         name: "Sarthak Joshi",
@@ -571,28 +395,33 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
         github: "https://github.com/drace28",
       },
-      
     ],
   },  
   {
     id: 6,
-    title: "Ping-Pong Game",
-    date: "Nov 2021 - Nov 2021",
-    description:
-      "Developed a ping-pong game using Python and Pygame, providing an engaging and interactive experience for users. The game features a player ship that can move around the screen, shoot projectiles, and avoid incoming enemies while collecting power-ups to enhance gameplay.",
+    title: "Personal Assistant",
+    date: "Jan 2022 - Mar 2022",
+    description: [
+      "Addressed desktop multitasking friction by developing a hands-free voice assistant for system automation, media management, and web inquiries.",
+      "Integrated speech recognition engines, pyttsx3 voice synthesis, Wikipedia APIs, and PyWhatKit automation scripts in Python.",
+      "Executed user voice commands for application launches, web research, and media playback with 92% speech parsing accuracy."
+    ],
     image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/pong.png?alt=media&token=5ac95455-d80b-4500-9d05-26aa126643ee",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/personal.png?alt=media&token=e11fa7a4-0466-41fb-99e5-901d8f53a4ef",
     tags: [
-      "Python", "Pygame", "Random", "Time", "Math", "Sys", "OS"],
+      "Speech-Recognition", "Pyttsx3", "Pywhatkit", "Wikipedia"],
     category: "python projects",
-    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Ping-Pong-Game-Using-Python-main",
+    github: "https://github.com/NotSoToxic/Python-Projects/tree/main/Desktop-Voice-Assistant",
   },
   {
     id: 7,
-    title: "Draw Doraemon using Python",
-    date: "Jan 2022 - Feb 2022",
-    description:
-      "Created a Python script using Turtle graphics to draw a detailed illustration of Doraemon, the beloved cartoon character. The script uses mathematical calculations and turtle commands to draw various shapes and curves, resulting in an accurate representation of Doraemon's iconic design.",
+    title: "Drawing Doraemon",
+    date: "Aug 2021 - Sep 2021",
+    description: [
+      "Explored mathematical coordinate modeling and vector animation through algorithmic canvas rendering in Python.",
+      "Programmed Turtle graphics routines using exact Cartesian coordinate geometry, arc calculations, and synchronized color fills to recreate the character.",
+      "Demonstrated procedural vector graphics generation with zero raster pixelation at arbitrary viewport scale factors."
+    ],
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/turtle.jfif?alt=media&token=db80a3e7-1f39-4178-aff3-79468c521802",
     tags: [
@@ -607,55 +436,115 @@ export const experiences = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Alphabet.png?alt=media&token=cad1d219-8b03-4800-8290-a518a1126cc9",
-    role: "Process Developer Intern",
-    company: "Alphabet Inc",
+    role: "Process Developer (SharePoint Developer)",
+    company: "Alphabet Inc. · Gurgaon, India",
     date: "Nov 2021 - May 2022",
-    desc: "Proactively tackled HR automation challenges, leveraging process optimization tools and technologies to streamline workflows and ensure operational efficiency. Designed and implemented automation solutions for the onboarding process, utilizing scripting and workflow management tools; conducted feedback loops and collaborated with IT and HR teams to ensure seamless integration across platforms",
+    desc: "Automated HR workflows by creating SharePoint automation tools and process flow triggers, cutting manual tasks by 35% and speeding up request handling. Developed onboarding automation scripts and process integrations, improving processing time by 20% and simplifying cross-platform operations.",
+    kpis: [
+      { value: "35%", label: "Manual Tasks Cut" },
+      { value: "20%", label: "Processing Speedup" },
+      { value: "SharePoint", label: "Flow Triggers" },
+      { value: "100%", label: "Cross-Platform" }
+    ],
     skills: [
+      "SharePoint Development",
       "Process Automation",
-      "Workflow Management",
-      "Scripting",
-      "HR Systems",
-      "Process Optimization",
-      "Cross-functional Collaboration"
+      "Process Flow Triggers",
+      "Internal Automation Tools",
+      "Scripting"
     ]
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Axlrate.png?alt=media&token=f1720335-c78f-4ec1-a4d2-d33d3662ea69",
     role: "Data Science Intern",
-    company: "Axlrate Research and Innovations LLP",
+    company: "Axlrate Research · Bengaluru, India",
     date: "Sept 2023 - Dec 2023",
-    desc: "Leveraged data analytics and machine learning to execute a comprehensive real-world business project, delivering actionable insights for organizational growth. Applied advanced statistical techniques and predictive modeling to solve complex business problems, optimizing decision-making processes.",
+    desc: "Applied machine learning and analytics to uncover performance trends, boosting operational efficiency by 15%. Refined predictive models for customer behavior forecasting, reducing analysis time by 30%.",
+    kpis: [
+      { value: "15%", label: "Efficiency Gain" },
+      { value: "30%", label: "Analysis Time Cut" },
+      { value: "ML", label: "Predictive Models" },
+      { value: "Python", label: "Analytics Pipelines" }
+    ],
     skills: [
-      "Data Analytics",
       "Machine Learning",
-      "Statistical Analysis", 
       "Predictive Modeling",
-      "Business Intelligence",
-      "Problem Solving"
+      "Data Analytics",
+      "Python",
+      "Statistical Analysis"
     ]
   },
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-17e0a.appspot.com/o/Image.png?alt=media&token=0a15ceda-9f27-4151-b120-5b998e01acaf",
     role: "Software Developer",
-    company: "Strategyz Inc.",
+    company: "Strategyz Inc. · Gurgaon, India",
     date: "Mar 2024 - Present",
-    desc: "Developed and deployed the Human Resource Management System Software using the MERN stack, leveraging CI/CD for AWS deployment and cloud server configuration. Configured serverless components in AWS Lambda using Python scripts. Automated IT operations, including M365 domain migration and system administration. Built SharePoint automation tools to enhance workflow efficiency.",
+    desc: "Streamlined workflows by creating SharePoint automation tools for real-time alerts, reducing manual follow-ups by 40%. Integrated RESTful authentication APIs, lowering login failures by 15% and enhancing access reliability. Engineered backend services on AWS (S3, EC2, Lambda, DynamoDB), achieving 99.9% uptime and cutting infrastructure costs by 30%. Directed Microsoft 365 migration and domain federation for 100+ users, ensuring zero downtime. Established CI/CD pipelines with GitHub Actions, accelerating deployment by 65%.",
+    kpis: [
+      { value: "40%", label: "Follow-ups Cut" },
+      { value: "99.9%", label: "AWS Uptime" },
+      { value: "30%", label: "Infra Cost Cut" },
+      { value: "65%", label: "Faster Deploy" }
+    ],
     skills: [
-      "AWS",
-      "MERN Stack",
-      "Git",
-      "CI/CD Pipleine",
-      "Python",
       "SharePoint Automation",
-      "Microsoft 365",
-      "System Administration"
+      "AWS (S3, EC2, Lambda, DynamoDB)",
+      "RESTful APIs",
+      "M365 Migration",
+      "GitHub Actions CI/CD"
     ]
   }
 ];
 
+export const certifications = [
+  {
+    title: "AWS APAC - Solutions Architecture",
+    issuer: "Forage",
+    badge: "AWS",
+  },
+  {
+    title: "Microsoft Technology Associate",
+    issuer: "Microsoft",
+    badge: "MTA",
+  },
+  {
+    title: "AWS Cloud Foundations",
+    issuer: "AWS",
+    badge: "AWS",
+  },
+  {
+    title: "Google: Data Analytics",
+    issuer: "Google",
+    badge: "Google",
+  },
+  {
+    title: "Google: Project Management",
+    issuer: "Google",
+    badge: "Google",
+  },
+];
+
+export const honorsAwards = [
+  {
+    title: "High Flyer Award",
+    desc: "Got the High Flyer Award for outstanding performance, initiative, and high leadership potential.",
+    badge: "Leadership",
+  },
+  {
+    title: "Discord Developer Title",
+    desc: "Earned the 'Discord Developer' title from Discord for building multiple custom automation bots on Discord.",
+    badge: "Discord",
+  },
+  {
+    title: "Last Hunt Hackathon Winner",
+    desc: "Winning Team of the Last Hunt Hackathon organized by the Institute.",
+    badge: "Hackathon",
+  },
+];
+
 export const contact = {
-  email: "mailto:"
+  email: "sarthak.joshi52@gmail.com",
+  phone: "9654298033",
 };

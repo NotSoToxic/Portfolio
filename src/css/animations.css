@@ -1,0 +1,147 @@
+/* =========================================================
+   PORTFOLIO ANIMATIONS - additive layer, no overrides
+   Matches existing IBM Plex Mono / Fraunces aesthetic.
+   ========================================================= */
+
+/* ===== Hero stagger ===== */
+.hero-eyebrow,
+.hero-title,
+.hero-desc,
+.hero-btns {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.hero-animated .hero-eyebrow { opacity: 1; transform: none; transition-delay: .05s; }
+.hero-animated .hero-title   { opacity: 1; transform: none; transition-delay: .48s; }
+.hero-animated .hero-desc    { opacity: 1; transform: none; transition-delay: .60s; }
+.hero-animated .hero-btns    { opacity: 1; transform: none; transition-delay: .72s; }
+
+/* ===== Hero Name Character Stagger & Interactions ===== */
+.hero-name {
+  user-select: none;
+  cursor: pointer;
+}
+
+.hero-first-name {
+  display: block;
+}
+
+.hero-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(26px) rotateX(-20deg);
+  filter: blur(4px);
+  transition: 
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.6s ease,
+    filter 0.5s ease,
+    color 0.2s ease,
+    text-shadow 0.25s ease;
+  transition-delay: calc(0.12s + var(--i) * 0.035s);
+  will-change: transform, opacity, filter;
+}
+
+.hero-animated .hero-char {
+  opacity: 1;
+  transform: translateY(0) rotateX(0deg);
+  filter: blur(0);
+}
+
+/* Individual letter hover interaction */
+.hero-char:hover {
+  transform: translateY(-9px) scale(1.14) rotate(-2deg) !important;
+  color: var(--accent) !important;
+  text-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 50%, transparent);
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.15s, text-shadow 0.2s !important;
+  transition-delay: 0s !important;
+}
+
+/* Staggered wave ripple on click */
+@keyframes charWave {
+  0% { transform: translateY(0) scale(1); }
+  35% {
+    transform: translateY(-16px) scale(1.18) rotate(-4deg);
+    color: var(--accent);
+    text-shadow: 0 12px 28px color-mix(in srgb, var(--accent) 60%, transparent);
+  }
+  70% { transform: translateY(3px) scale(0.96) rotate(1deg); }
+  100% { transform: translateY(0) scale(1) rotate(0); }
+}
+
+.hero-char.char-wave {
+  animation: charWave 0.62s cubic-bezier(0.2, 0.8, 0.2, 1) !important;
+}
+
+/* Ambient warm glow pulse on Joshi (em) */
+.hero-name em {
+  animation: heroAmberGlow 4s ease-in-out infinite alternate;
+}
+
+@keyframes heroAmberGlow {
+  0% {
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  50% {
+    filter: drop-shadow(0 0 14px color-mix(in srgb, var(--accent) 35%, transparent));
+  }
+  100% {
+    filter: drop-shadow(0 0 22px color-mix(in srgb, var(--accent2) 45%, transparent));
+  }
+}
+
+/* ===== Section label sweep ===== */
+.sec-label {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity .45s ease, transform .45s ease;
+}
+.sec-label.label-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ===== Skill tag stagger ===== */
+.sk-tag {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .3s ease, transform .3s ease;
+}
+.skills-revealed .sk-tag { opacity: 1; transform: none; }
+
+/* ===== KPI count-up - highlight flash ===== */
+.kpi-val.kpi-counting {
+  color: var(--accent);
+  transition: color .8s ease;
+}
+
+/* ===== Project card 3D tilt ===== */
+.proj-card {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transform: perspective(800px) rotateX(0deg) rotateY(0deg) translateY(0);
+  transition: box-shadow .25s ease, border-color .25s ease, transform .08s linear;
+}
+.proj-card:not(:hover) {
+  transition: box-shadow .4s ease, border-color .4s ease, transform .45s ease;
+}
+
+/* ===== Contact links stagger ===== */
+.c-link {
+  opacity: 0;
+  transform: translateX(-14px);
+  transition: opacity .35s ease, transform .35s ease,
+              padding .2s, border-color .2s;
+}
+.contact-revealed .c-link { opacity: 1; transform: none; }
+
+/* ===== Chapter section number count ===== */
+.sec-num {
+  display: inline-block;
+  min-width: 2ch;
+  transition: color .3s;
+}
+
+/* ===== Parallax hero ===== */
+#hero { overflow: hidden; }
+#hero .hero-l { will-change: transform; }

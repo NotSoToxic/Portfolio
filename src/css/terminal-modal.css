@@ -1,0 +1,426 @@
+/* ===== INTERACTIVE TERMINAL MODAL ===== */
+.term-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9990;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: termFadeIn 0.2s ease-out;
+}
+
+@keyframes termFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.term-modal-window {
+  width: min(840px, 94vw);
+  height: min(640px, 86vh);
+  background: #100d0a;
+  border: 1px solid rgba(245, 158, 11, 0.22);
+  border-radius: 8px;
+  box-shadow: 
+    0 30px 90px rgba(0, 0, 0, 0.9),
+    0 0 0 1px rgba(245, 158, 11, 0.16);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'IBM Plex Mono', monospace;
+  animation: termScaleIn 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes termScaleIn {
+  from { transform: scale(0.96) translateY(10px); opacity: 0; }
+  to { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* Chrome Header */
+.term-modal-window .term-modal-head {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  background: #17130e;
+  border-bottom: 1px solid rgba(245, 158, 11, 0.12);
+  user-select: none;
+}
+
+.term-modal-window .term-dots {
+  display: flex;
+  gap: 7px;
+}
+
+.term-modal-window .term-dots .dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.term-modal-window .term-dots .dot:hover {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
+.term-modal-window .term-dots .dot.r { background: #ff5f56; }
+.term-modal-window .term-dots .dot.y { background: #ffbd2e; }
+.term-modal-window .term-dots .dot.g { background: #27c93f; }
+
+.term-modal-window .term-modal-title {
+  flex: 1;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: #9c9589;
+  text-transform: uppercase;
+}
+
+.term-modal-window .term-modal-esc {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: #6d675e;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.term-modal-window .term-modal-esc:hover {
+  color: #fbf6ec;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Quick pills bar */
+.term-modal-window .term-pills-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: #130f0b;
+  border-bottom: 1px solid rgba(245, 158, 11, 0.1);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.term-modal-window .term-pills-bar::-webkit-scrollbar { display: none; }
+
+.term-modal-window .pills-label {
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  color: #948472;
+  margin-right: 4px;
+}
+
+.term-modal-window .term-pill-btn {
+  background: rgba(245, 158, 11, 0.06);
+  border: 1px solid rgba(245, 158, 11, 0.18);
+  color: #ded2be;
+  padding: 3px 8px;
+  font-size: 11px;
+  border-radius: 4px;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.term-modal-window .term-pill-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accfg);
+  transform: translateY(-1px);
+}
+
+/* Terminal Body Scroll Area */
+.term-modal-window .term-modal-body {
+  flex: 1;
+  padding: 16px 20px;
+  overflow-y: auto;
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: #fbf6ec;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(245, 158, 11, 0.25) transparent;
+}
+
+.term-modal-window .term-modal-body::-webkit-scrollbar {
+  width: 6px;
+}
+.term-modal-window .term-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+/* Entry blocks */
+.term-modal-window .term-entry {
+  margin-bottom: 14px;
+}
+
+.term-modal-window .term-entry.banner {
+  color: var(--accent);
+  font-size: 11.5px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  opacity: 0.95;
+}
+
+.term-modal-window .term-entry.cmd-echo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.term-modal-window .prompt-lead {
+  color: var(--accent);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.term-modal-window .cmd-text {
+  color: #fbf6ec;
+  font-weight: 600;
+}
+
+.term-modal-window .entry-hdr {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #ffbd2e;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+/* Help Box */
+.term-modal-window .help-box .help-hdr {
+  color: #ffbd2e;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.term-modal-window .help-box .help-row {
+  color: #b8b2a6;
+  padding-left: 6px;
+  font-size: 12px;
+}
+
+/* Skills Box */
+.term-modal-window .skills-box .skill-row {
+  margin-bottom: 8px;
+  padding-left: 4px;
+}
+.term-modal-window .skill-cat {
+  color: var(--accent);
+  font-weight: 600;
+  display: inline-block;
+  min-width: 130px;
+}
+.term-modal-window .skill-val {
+  color: #fbf6ec;
+}
+
+/* Work Box */
+.term-modal-window .tmodal-work-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+.term-modal-window .tmodal-work-title {
+  color: #fbf6ec;
+  font-size: 13px;
+}
+.term-modal-window .tmodal-work-title .role {
+  color: var(--accent);
+}
+.term-modal-window .tmodal-work-title .idx {
+  color: #ffbd2e;
+  margin-right: 4px;
+}
+.term-modal-window .tmodal-work-meta {
+  font-size: 11px;
+  color: #857f74;
+  margin: 3px 0 6px;
+}
+.term-modal-window .tmodal-work-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.term-modal-window .tmodal-work-bullets li {
+  position: relative;
+  padding-left: 14px;
+  margin-bottom: 4px;
+  color: #c4bfb4;
+  font-size: 12px;
+}
+.term-modal-window .tmodal-work-bullets li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* Projects Box */
+.term-modal-window .tmodal-proj-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+.term-modal-window .tmodal-proj-title {
+  font-size: 13px;
+  color: #fbf6ec;
+}
+.term-modal-window .tmodal-proj-title .idx {
+  color: #ffbd2e;
+  margin-right: 4px;
+}
+.term-modal-window .tmodal-proj-stack {
+  font-size: 11px;
+  color: #857f74;
+  margin: 2px 0 5px;
+}
+.term-modal-window .tmodal-proj-desc {
+  font-size: 12px;
+  color: #c4bfb4;
+  margin-bottom: 6px;
+}
+.term-modal-window .t-link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 11.5px;
+  transition: color 0.15s;
+}
+.term-modal-window .t-link:hover {
+  color: #ffbd2e;
+}
+
+/* Edu Box */
+.term-modal-window .tmodal-edu-card {
+  padding-left: 4px;
+  margin-bottom: 8px;
+}
+.term-modal-window .tmodal-edu-school {
+  color: #fbf6ec;
+}
+.term-modal-window .tmodal-edu-degree {
+  color: #c4bfb4;
+  font-size: 12px;
+}
+.term-modal-window .tmodal-edu-meta {
+  color: #857f74;
+  font-size: 11px;
+}
+.term-modal-window .tmodal-edu-meta .grade {
+  color: #4fb357;
+  font-weight: 600;
+}
+
+/* Contact Box */
+.term-modal-window .tmodal-contact-row {
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+.term-modal-window .c-label {
+  color: var(--accent);
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+}
+.term-modal-window .c-val {
+  color: #fbf6ec;
+}
+
+/* Text & Error */
+.term-modal-window .text-box {
+  color: #b8b2a6;
+  padding-left: 4px;
+}
+.term-modal-window .error-box {
+  color: #ff5f56;
+  padding-left: 4px;
+}
+
+/* Active CLI input prompt */
+.term-modal-window .term-active-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.term-modal-window .term-modal-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fbf6ec;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  caret-color: var(--accent);
+}
+
+.term-modal-window .term-modal-input::placeholder {
+  color: rgba(255, 255, 255, 0.22);
+}
+
+.term-modal-window .term-cursor {
+  color: var(--accent);
+  animation: termBlink 1s steps(2) infinite;
+}
+
+@keyframes termBlink {
+  50% { opacity: 0; }
+}
+
+/* Navbar Terminal Button */
+.nav-terminal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 9.5px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.nav-terminal-btn:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
+}
+
+.nav-terminal-btn .term-icon-svg {
+  color: var(--accent);
+  transition: transform 0.2s;
+}
+
+.nav-terminal-btn:hover .term-icon-svg {
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .nav-terminal-btn span { display: none; }
+  .nav-terminal-btn { padding: 6px 8px; }
+}
