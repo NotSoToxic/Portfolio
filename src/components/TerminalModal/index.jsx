@@ -158,6 +158,17 @@ const TerminalModal = ({ isOpen, onClose, isDark, toggleTheme }) => {
               ],
               live: Bio.github ? 'Available' : 'N/A',
               repo: 'https://github.com/sarthakjoshi52'
+            },
+            {
+              title: 'Mala Spirit Counter',
+              stack: 'TypeScript · React · TanStack Start · PWA · Capacitor · Web Audio API · Nitro',
+              bullets: [
+                'Architected an offline-first, devotional digital mala bead counter with zero logins, zero servers, and 100% client-side data privacy using TypeScript, React, and TanStack Start.',
+                'Engineered an interactive 3D SVG progress ring with real-time Web Audio API chime synthesis and integrated Capacitor plugins for native haptic feedback and local meditation reminders across iOS and Android.',
+                'Implemented Workbox PWA caching strategies and Nitro edge SSR build presets, achieving sub-second load times and flawless offline functionality without transmitting telemetry data.'
+              ],
+              live: 'https://mala-jaap.amplr.in',
+              repo: 'https://github.com/NotSoToxic/mala-spirit-counter'
             }
           ]
         });
