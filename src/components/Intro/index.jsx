@@ -182,7 +182,7 @@ const Intro = ({ onFinish, isDark, toggleTheme }) => {
       <div className="intro-hud hud-tl">
         <div className="hud-line">sys.portfolio.boot</div>
         <div className="hud-line dim">build <span id="hud-build">2026.09.21</span></div>
-        <div className="hud-line dim">host <span id="hud-host">sj@delhi</span></div>
+        <div className="hud-line dim">host <span id="hud-host">sj.exe</span></div>
       </div>
       <div className="intro-hud hud-tr">
         <div className="hud-line">progress <span id="hud-prog">{String(Math.round(p * 100)).padStart(2, '0')}%</span></div>

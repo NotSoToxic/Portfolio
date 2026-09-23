@@ -202,12 +202,23 @@
 .term-modal-window .help-box .help-hdr {
   color: #ffbd2e;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  white-space: pre-wrap;
+  font-size: 12.5px;
+  letter-spacing: 0.05em;
+}
+.term-modal-window .help-box .help-hdr:first-child {
+  margin-top: 0;
 }
 .term-modal-window .help-box .help-row {
-  color: #b8b2a6;
+  color: #d1cbc1;
   padding-left: 6px;
   font-size: 12px;
+  white-space: pre-wrap;
+  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+  line-height: 1.45;
+  min-height: 1.3em;
 }
 
 /* Skills Box */
@@ -343,12 +354,36 @@
 
 /* Text & Error */
 .term-modal-window .text-box {
-  color: #b8b2a6;
+  color: #dfd9cc;
   padding-left: 4px;
+  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+  font-size: 12.5px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: normal;
+  overflow-wrap: break-word;
+  font-variant-ligatures: none;
+  letter-spacing: 0;
 }
+
+.term-modal-window .text-box .term-text-line {
+  min-height: 1.3em;
+  white-space: pre-wrap;
+  font-variant-ligatures: none;
+}
+
 .term-modal-window .error-box {
   color: #ff5f56;
   padding-left: 4px;
+  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+  font-size: 12.5px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+
+.term-modal-window .error-box .err-line {
+  min-height: 1.3em;
+  white-space: pre-wrap;
 }
 
 /* Active CLI input prompt */
