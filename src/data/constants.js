@@ -11,7 +11,7 @@ export const Bio = {
     "Software Developer with proven expertise in cloud infrastructure (AWS), full-stack development, and process automation. Experienced in building high-availability distributed systems, architecting serverless solutions, and developing internal automation tools that measurably improve operational velocity.",
   github: "https://github.com/NotSoToxic",
   resume: "/Sarthak_Joshi_Resume.pdf",
-  linkedin: "https://www.linkedin.com/in/sarthak-joshi-413450200/",
+  linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
   insta: "https://www.instagram.com/printf_sarthak/",
   email: "sarthak.joshi52@gmail.com",
   phone: "9654298033",
