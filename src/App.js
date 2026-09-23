@@ -15,11 +15,11 @@ import TerminalModal from './components/TerminalModal/index.jsx';
 
 function App() {
   const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem('portfolio-theme');
+    const saved = localStorage.getItem('portfolio-theme-v2');
     if (saved !== null) {
       return saved === 'dark';
     }
-    return true; // Default to dark theme
+    return false; // Default to light theme
   });
 
   const [isTerminalOpen, setIsTerminalOpen] = useState(false);
@@ -27,10 +27,10 @@ function App() {
   useEffect(() => {
     if (isDark) {
       document.body.classList.add('dark');
-      localStorage.setItem('portfolio-theme', 'dark');
+      localStorage.setItem('portfolio-theme-v2', 'dark');
     } else {
       document.body.classList.remove('dark');
-      localStorage.setItem('portfolio-theme', 'light');
+      localStorage.setItem('portfolio-theme-v2', 'light');
     }
   }, [isDark]);
 
