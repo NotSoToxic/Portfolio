@@ -89,54 +89,26 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "MintHub",
-    date: "Mar 2023 - Jun 2023",
-    description:
-      "Mintub is a web application that offers range of features to enhance user's cryptocurrency experience",
-    image:
-      "https://github.com/NotSoToxic/WebDev-Project-beta/assets/93981003/15688934-045a-4f95-8dec-cfa7e7b65388",
+    title: "Mala Spirit Counter",
+    date: "2024 - Present",
+    description: [
+      "Architected an offline-first, devotional digital mala bead counter with zero logins, zero servers, and 100% client-side data privacy using TypeScript, React, and TanStack Start.",
+      "Engineered an interactive 3D SVG progress ring with real-time Web Audio API chime synthesis and integrated Capacitor plugins for native haptic feedback and local meditation reminders across iOS and Android.",
+      "Implemented Workbox PWA caching strategies and Nitro edge SSR build presets, achieving sub-second load times and flawless offline functionality without transmitting telemetry data."
+    ],
     tags: [
-      "Docker",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
+      "TypeScript",
+      "React",
+      "TanStack Start",
+      "PWA",
+      "Capacitor",
+      "Web Audio API",
+      "Tailwind CSS",
+      "Nitro"
     ],
     category: "web app",
-    github: "https://github.com/NotSoToxic/WebDev-Project-beta",
-    webapp: "https://minthub-47c82.web.app",
-    member: [
-      {
-        name: "Sarthak Joshi",
-        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
-        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
-        github: "https://github.com/NotSoToxic",
-      },
-      {
-        name: "Devashish Jindal",
-        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
-        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
-        github: "https://github.com/drace28",
-      },
-      {
-        name: "Rajul Mahto",
-        img: "https://minthub-47c82.web.app/static/media/rajul.109e922edf540cecb292.jpeg",
-        linkedin: "https://www.linkedin.com/in/rajul-mahto-313463200/",
-        github: "https://github.com/Rajulmahto21",
-      },{
-        name: "Aryan Das",
-        img: "https://minthub-47c82.web.app/static/media/arya.9b90e41f3d1cd4342ebf.png",
-        linkedin: "https://www.linkedin.com/in/aryan--das/",
-        github: "https://github.com/arya-domain",
-      },
-
-      {
-        name: "Tanmoy Mondal",
-        img: "https://minthub-47c82.web.app/static/media/tanmoy.e5c670a2f35c98d16b41.jfif",
-        linkedin: "Linkedln link",
-        github: "github link",
-      },
-    ],
+    github: "https://github.com/NotSoToxic/mala-spirit-counter",
+    webapp: "https://mala-jaap.amplr.in",
   },
   {
     id: 10,
@@ -186,26 +158,54 @@ export const projects = [
   },
   {
     id: 12,
-    title: "Mala Spirit Counter",
-    date: "2024 - Present",
-    description: [
-      "Architected an offline-first, devotional digital mala bead counter with zero logins, zero servers, and 100% client-side data privacy using TypeScript, React, and TanStack Start.",
-      "Engineered an interactive 3D SVG progress ring with real-time Web Audio API chime synthesis and integrated Capacitor plugins for native haptic feedback and local meditation reminders across iOS and Android.",
-      "Implemented Workbox PWA caching strategies and Nitro edge SSR build presets, achieving sub-second load times and flawless offline functionality without transmitting telemetry data."
-    ],
+    title: "MintHub",
+    date: "Mar 2023 - Jun 2023",
+    description:
+      "Mintub is a web application that offers range of features to enhance user's cryptocurrency experience",
+    image:
+      "https://github.com/NotSoToxic/WebDev-Project-beta/assets/93981003/15688934-045a-4f95-8dec-cfa7e7b65388",
     tags: [
-      "TypeScript",
-      "React",
-      "TanStack Start",
-      "PWA",
-      "Capacitor",
-      "Web Audio API",
-      "Tailwind CSS",
-      "Nitro"
+      "Docker",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
     ],
     category: "web app",
-    github: "https://github.com/NotSoToxic/mala-spirit-counter",
-    webapp: "https://mala-jaap.amplr.in",
+    github: "https://github.com/NotSoToxic/WebDev-Project-beta",
+    // webapp: "https://minthub-47c82.web.app",
+    member: [
+      {
+        name: "Sarthak Joshi",
+        img: "https://minthub-47c82.web.app/static/media/sarthak.fa633e07e11b19ee4b1e.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-j0shi/",
+        github: "https://github.com/NotSoToxic",
+      },
+      {
+        name: "Devashish Jindal",
+        img: "https://minthub-47c82.web.app/static/media/deva.59cd30762f0ee33c9445.png",
+        linkedin: "https://www.linkedin.com/in/devashish-jindal-830400228/",
+        github: "https://github.com/drace28",
+      },
+      {
+        name: "Rajul Mahto",
+        img: "https://minthub-47c82.web.app/static/media/rajul.109e922edf540cecb292.jpeg",
+        linkedin: "https://www.linkedin.com/in/rajul-mahto-313463200/",
+        github: "https://github.com/Rajulmahto21",
+      },{
+        name: "Aryan Das",
+        img: "https://minthub-47c82.web.app/static/media/arya.9b90e41f3d1cd4342ebf.png",
+        linkedin: "https://www.linkedin.com/in/aryan--das/",
+        github: "https://github.com/arya-domain",
+      },
+
+      {
+        name: "Tanmoy Mondal",
+        img: "https://minthub-47c82.web.app/static/media/tanmoy.e5c670a2f35c98d16b41.jfif",
+        linkedin: "Linkedln link",
+        github: "github link",
+      },
+    ],
   },
   {
     id: 3,
