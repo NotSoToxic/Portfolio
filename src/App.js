@@ -12,6 +12,7 @@ import Skills from './components/Skills/index.jsx';
 import Contact from './components/Contact/index.jsx';
 import Footer from './components/Footer/index.jsx';
 import TerminalModal from './components/TerminalModal/index.jsx';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [isDark, setIsDark] = useState(() => {
@@ -76,6 +77,7 @@ function App() {
         isDark={isDark}
         toggleTheme={toggleTheme}
       />
+      <Analytics />
     </>
   );
 }
